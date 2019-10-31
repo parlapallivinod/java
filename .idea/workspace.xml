@@ -1,151 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0482bae3-5bfc-4248-83fc-16439df8550d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../banking_api/banking_srs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../banking_api/banking_srs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Main$Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Main$Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/in/rgukt/r081247/practice/DoublyLinkedList$LinkedIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/in/rgukt/r081247/practice/DoublyLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/in/rgukt/r081247/practice/DoublyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/in/rgukt/r081247/practice/Samp$CounterThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/in/rgukt/r081247/practice/Samp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/in/rgukt/r081247/practice/Timer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/AbstractBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/AbstractBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/AbstractTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/AbstractTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/LinkedBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/LinkedBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.attach_pid8344" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.factorypath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.idea/sonarIssues.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/.settings/org.springframework.ide.eclipse.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-05-22.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-05-23.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-05-24.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-05-25.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-05-29.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-05-30.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-06-02.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-06-03.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-06-04.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-06-05.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-06-07.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-06-14.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-06-25.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-06-26.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-07-03.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-07-07.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-07-09.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-07-12.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-07-16.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-07-19.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-07-22.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-07-24.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/archived/spring-boot-logger-2019-07-25.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/logs/spring-boot-logger.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/sonarqube.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/springbootrestapi.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/CrmApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/config/CrmCofig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/config/SecurityConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/controller/CourseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/controller/DepartmentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/controller/StudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/entity/Course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/entity/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/entity/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/exception/CustomExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/exception/ErrorResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/exception/RecordNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/repository/CourseRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/repository/DepartmentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/repository/StudentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/service/CourseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/service/DepartmentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/java/org/nrp/crm/service/StudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/main/resources/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/test/java/org/nrp/crm/CrmApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/test/java/org/nrp/crm/controller/DepartmentControllerIntegrationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/test/java/org/nrp/crm/controller/DepartmentControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/test/java/org/nrp/crm/repository/DepartmentRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/test/java/org/nrp/crm/service/DepartmentServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/src/test/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/CrmApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/config/CrmCofig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/config/SecurityConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/config/SwaggerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/controller/CourseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/controller/DepartmentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/controller/StudentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/entity/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/entity/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/entity/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/exception/CustomExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/exception/ErrorResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/exception/RecordNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/repository/CourseRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/repository/DepartmentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/repository/StudentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/service/CourseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/service/DepartmentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/classes/org/nrp/crm/service/StudentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/crm-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/crm-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/surefire-reports/TEST-org.nrp.crm.CrmApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/surefire-reports/TEST-org.nrp.crm.controller.DepartmentControllerIntegrationTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/surefire-reports/TEST-org.nrp.crm.controller.DepartmentControllerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/surefire-reports/TEST-org.nrp.crm.repository.DepartmentRepositoryTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/surefire-reports/TEST-org.nrp.crm.service.DepartmentServiceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/surefire-reports/org.nrp.crm.CrmApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/surefire-reports/org.nrp.crm.controller.DepartmentControllerIntegrationTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/surefire-reports/org.nrp.crm.controller.DepartmentControllerTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/surefire-reports/org.nrp.crm.repository.DepartmentRepositoryTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/surefire-reports/org.nrp.crm.service.DepartmentServiceTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/test-classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/test-classes/org/nrp/crm/CrmApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/test-classes/org/nrp/crm/controller/DepartmentControllerIntegrationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/test-classes/org/nrp/crm/controller/DepartmentControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/test-classes/org/nrp/crm/repository/DepartmentRepositoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../unversity_api/target/test-classes/org/nrp/crm/service/DepartmentServiceTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="0482bae3-5bfc-4248-83fc-16439df8550d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,88 +14,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/AbstractTree.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/Entry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/list/DoublyLinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="method#main#0;class#DoublyLinkedList#0" />
-              </folding>
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.4.hs-adpt/lib/src.zip!/jdk.net/module-info.java">
+        <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/AbstractPriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#1359#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming/description.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" lean-forward="true" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.4.hs-adpt/lib/src.zip!/jdk.naming.rmi/module-info.java">
+        <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/DefaultComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#1734#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/list/LinkedPositionalList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/AbstractBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -257,10 +72,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/LinkedBinaryTree.java">
+        <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/LinkedBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3960">
-              <caret line="271" selection-start-line="271" selection-end-line="271" />
+            <state relative-caret-position="3708">
+              <caret line="255" column="52" selection-start-line="255" selection-start-column="52" selection-end-line="255" selection-end-column="52" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="docComment;class#LinkedBinaryTree#0" />
@@ -271,7 +86,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/list/Position.java">
+        <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/Position.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/list/Position.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="7" />
@@ -300,14 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/org/designpatterns/behavioral/templatemethod/Coffee.java" />
-        <option value="$PROJECT_DIR$/src/org/designpatterns/behavioral/templatemethod/Tea.java" />
-        <option value="$PROJECT_DIR$/src/org/designpatterns/behavioral/templatemethod/Main.java" />
-        <option value="$PROJECT_DIR$/src/org/designpatterns/structural/composite/MenuComponent.java" />
-        <option value="$PROJECT_DIR$/src/org/designpatterns/structural/composite/MenuItem.java" />
-        <option value="$PROJECT_DIR$/src/org/designpatterns/structural/composite/Menu.java" />
-        <option value="$PROJECT_DIR$/src/org/designpatterns/structural/composite/Waitress.java" />
-        <option value="$PROJECT_DIR$/src/org/designpatterns/structural/composite/Main.java" />
         <option value="$PROJECT_DIR$/src/org/designpatterns/structural/proxy/PersonBean.java" />
         <option value="$PROJECT_DIR$/src/org/designpatterns/structural/proxy/PersonBeanImpl.java" />
         <option value="$PROJECT_DIR$/src/org/designpatterns/structural/proxy/NonOwnerInvocationHandler.java" />
@@ -348,9 +179,17 @@
         <option value="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/Position.java" />
         <option value="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/Tree.java" />
         <option value="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/AbstractBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/AbstractTree.java" />
+        <option value="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/AbstractBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/LinkedBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/trees/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/trees/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/Entry.java" />
+        <option value="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/PriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/DefaultComparator.java" />
+        <option value="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/AbstractPriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/in/rgukt/r081247/java/java8/new features.txt" />
       </list>
     </option>
   </component>
@@ -373,10 +212,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="functionalprogramming" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="java" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -385,24 +247,29 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../university_api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.datastructure.tree" />
       <recent name="org.practice" />
       <recent name="org.designpatterns.structural.adaptor" />
       <recent name="org.designpatterns.behavioral.command" />
       <recent name="org.designpatterns.creational.builder" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -525,8 +392,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="708" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3110774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3444613" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -534,7 +402,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924694" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.25925925" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -598,6 +466,7 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="Strategy Pattern" />
     <MESSAGE value="Stategy, Observer, Decorator patterns" />
@@ -615,9 +484,9 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/list/Dequeue.java</url>
+          <url>file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/list/Dequeue.java</url>
           <line>51</line>
-          <properties class="in.rgukt.r081247.datastructures.list.Dequeue" method="removeFirst">
+          <properties class="in.rgukt.r081247.java.datastructure.list.Dequeue" method="removeFirst">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
@@ -630,53 +499,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/behavioral/command/LightOffCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/behavioral/command/NoCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/behavioral/command/RemoteControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/behavioral/command/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/behavioral/command/Light.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/creational/abstractfactory/WindowsFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/creational/abstractfactory/GooglePhone.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/creational/abstractfactory/GooglePhone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
@@ -687,21 +510,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/structural/adaptor/Duck.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/structural/adaptor/Duck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/structural/adaptor/Turkey.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/structural/adaptor/Turkey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/structural/adaptor/WildTurkey.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/structural/adaptor/WildTurkey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
@@ -714,7 +537,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/structural/adaptor/TurkeyAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/structural/adaptor/TurkeyAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
@@ -725,14 +548,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/structural/adaptor/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/structural/adaptor/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/behavioral/templatemethod/CaffeignBeverage.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/behavioral/templatemethod/CaffeignBeverage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
@@ -745,7 +568,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/behavioral/templatemethod/Coffee.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/behavioral/templatemethod/Coffee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
@@ -758,7 +581,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/behavioral/templatemethod/Tea.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/behavioral/templatemethod/Tea.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
@@ -771,14 +594,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/behavioral/templatemethod/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/behavioral/templatemethod/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/structural/composite/MenuComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/structural/composite/MenuComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
@@ -803,7 +626,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/structural/composite/MenuItem.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/structural/composite/MenuItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
@@ -820,7 +643,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/structural/composite/Menu.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/structural/composite/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
           <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
@@ -840,7 +663,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/structural/composite/Waitress.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/structural/composite/Waitress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
@@ -853,21 +676,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/structural/composite/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/structural/composite/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/structural/proxy/PersonBean.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/structural/proxy/PersonBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/structural/proxy/PersonBeanImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/structural/proxy/PersonBeanImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
@@ -881,28 +704,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/practice/LinkedIterator.java" />
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/structural/proxy/NonOwnerInvocationHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/structural/proxy/NonOwnerInvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/structural/proxy/OwnerInvocationHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/structural/proxy/OwnerInvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/structural/proxy/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/structural/proxy/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpatterns/creational/singleton/Singleton.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/designpattern/creational/singleton/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
@@ -922,7 +745,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/list/PositionalList.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/list/PositionalList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="3" selection-end-column="3" />
@@ -932,7 +755,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/algorithms/Permutations.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/algorithm/Permutations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
@@ -942,7 +765,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/list/Dequeue.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/list/Dequeue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
@@ -963,26 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1027,18 +830,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/AbstractTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/list/DoublyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/list/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -1058,6 +850,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/AbstractTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.4.hs-adpt/lib/src.zip!/jdk.naming.rmi/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1068,17 +871,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/list/LinkedPositionalList.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/list/LinkedPositionalList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="3" selection-start-column="3" selection-end-column="3" />
@@ -1088,7 +881,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/AbstractBinaryTree.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/AbstractBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
@@ -1096,6 +889,37 @@
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/Entry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/DefaultComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1109,10 +933,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/LinkedBinaryTree.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/LinkedBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3960">
-          <caret line="271" selection-start-line="271" selection-end-line="271" />
+        <state relative-caret-position="3708">
+          <caret line="255" column="52" selection-start-line="255" selection-start-column="52" selection-end-line="255" selection-end-column="52" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="docComment;class#LinkedBinaryTree#0" />
@@ -1121,13 +945,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/list/Position.java">
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/list/Position.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" selection-start-line="8" selection-end-line="12" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/java12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/AbstractPriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming/description.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" lean-forward="true" selection-end-line="23" />
         </state>
       </provider>
     </entry>

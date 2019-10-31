@@ -8,6 +8,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/java/in/rgukt/r081247/bankingapi/model/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/java/in/rgukt/r081247/bankingapi/repository/UserRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../crm/target/classes/org/nrp/crm/CrmApplication.class">
           <value>
             <set />
@@ -98,6 +108,96 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/list/LinkedPositionalList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/list/Position.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/AbstractPriorityQueue.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/DefaultComparator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/Entry.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/PriorityQueue.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/AbstractBinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/AbstractTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/BinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/LinkedBinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/Position.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/Tree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/trees/AbstractBinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/trees/AbstractTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/trees/BinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/trees/LinkedBinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/trees/Position.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/trees/Tree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/list/Position.java">
           <value>
             <set />
@@ -129,6 +229,41 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/Tree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/trees/AbstractBinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/trees/AbstractTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/trees/BinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/trees/LinkedBinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/trees/Position.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/trees/Tree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/java8/new features.txt">
           <value>
             <set />
           </value>
