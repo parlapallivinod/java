@@ -8,6 +8,96 @@
             <set />
           </value>
         </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/logs/banking_api_logger.log">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/java/in/rgukt/r081247/bankingapi/config/SecurityConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/java/in/rgukt/r081247/bankingapi/controller/BankerController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/java/in/rgukt/r081247/bankingapi/controller/HomeResource.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/java/in/rgukt/r081247/bankingapi/exception/BankingExceptionHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/java/in/rgukt/r081247/bankingapi/exception/BankingResponseEntityExceptionHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/java/in/rgukt/r081247/bankingapi/exception/CustomExceptionHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/java/in/rgukt/r081247/bankingapi/exception/ErrorResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/java/in/rgukt/r081247/bankingapi/exception/RecordNotFoundException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/java/in/rgukt/r081247/bankingapi/model/BankingUserDetails.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/java/in/rgukt/r081247/bankingapi/model/Role.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/java/in/rgukt/r081247/bankingapi/model/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/java/in/rgukt/r081247/bankingapi/repository/UserRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/java/in/rgukt/r081247/bankingapi/service/BankingUserDetailsService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/java/in/rgukt/r081247/bankingapi/service/UserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/resources/logback-spring.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../crm/target/classes/org/nrp/crm/CrmApplication.class">
           <value>
             <set />
@@ -98,6 +188,131 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/comparison/C001StringBuilderVsString.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/comparison/C001_StringBuilderVsString.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/comparison/StringBuilderVsString.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/comparison/Timer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/comparison/util/Timer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/list/LinkedPositionalList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/list/Position.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/AbstractPriorityQueue.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/DefaultComparator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/Entry.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/HeapPriorityQueue.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/PriorityQueue.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/SortedPriorityQueue.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/AbstractBinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/AbstractTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/BinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/LinkedBinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/Position.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/tree/Tree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/trees/AbstractBinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/trees/AbstractTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/trees/BinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/trees/LinkedBinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/trees/Position.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/trees/Tree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/list/Position.java">
           <value>
             <set />
@@ -113,6 +328,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/BinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/LinkedBinaryTree.java">
           <value>
             <set />
@@ -124,6 +344,61 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/tree/Tree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/trees/AbstractBinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/trees/AbstractTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/trees/BinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/trees/LinkedBinaryTree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/trees/Position.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructures/trees/Tree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming/FP001_Runnable.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming/FP002_FlatMap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming/FP003_FileFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/java8/new features.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/practice/Samp.java">
           <value>
             <set />
           </value>
@@ -854,6 +1129,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../springbootrestapi/src/test/java/org/nrp/crm/controller/DepartmentControllerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../universityapi/src/main/resources/logback-spring.xml">
           <value>
             <set />
           </value>
