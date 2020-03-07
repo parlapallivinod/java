@@ -98,6 +98,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../bankingapi/src/main/resources/static/banking_srs.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../crm/target/classes/org/nrp/crm/CrmApplication.class">
           <value>
             <set />
@@ -223,7 +228,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/map/AbstractMap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/map/Entry.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/map/Map.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/map/UnsortedTableMap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/AbstractPriorityQueue.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/AdaptablePriorityQueue.java">
           <value>
             <set />
           </value>
@@ -234,6 +264,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/Entry.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/in/rgukt/r081247/java/datastructure/priorityqueue/HeapAdaptablePriorityQueue.java">
           <value>
             <set />
           </value>

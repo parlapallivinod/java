@@ -134,7 +134,7 @@ public class HeapPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
                 '}';
     }
 
-    /** Sorts sequence S, using initially empty priority queue P to produce the order. */
+    /** Sorts sequence s, using initially empty priority queue p to produce the order. */
     public static <E> void pqSort(PositionalList<E> s, PriorityQueue<E, ?> p) {
         int n = s.size();
         for (int j = 0; j < n; j++) {
@@ -209,8 +209,7 @@ public class HeapPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
         System.out.println(pq);
         */
 
-        /** Test 3 */
-
+        /** Test 3
         PositionalList<Integer> pl = new LinkedPositionalList<>();
         for (int i = 10; i >= 0; i--) {
             pl.addLast(i);
@@ -219,6 +218,7 @@ public class HeapPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
         PriorityQueue<Integer, ?> pq = new HeapPriorityQueue<>();
         HeapPriorityQueue.pqSort(pl, pq);
         System.out.println(pl);
+        */
 
     }
 }
