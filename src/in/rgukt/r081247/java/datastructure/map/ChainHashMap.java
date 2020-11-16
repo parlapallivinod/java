@@ -75,4 +75,25 @@ public class ChainHashMap<K, V> extends AbstractHashMap<K, V> {
         }
         return buffer;
     }
+
+    public static void main(String[] args) {
+        Map<String, String> contacts = new ChainHashMap<>();
+        contacts.put("Madhu N", "111 111 1111");
+        contacts.put("Madhu Y", "222, 222, 2222");
+        contacts.put("Hazarath N", "333 333 3333");
+        contacts.put("Krishna R", "444 444 4444");
+        contacts.put("Anusha M", "555 555 5555");
+        contacts.put("Sushma M", "666 666 6666");
+        contacts.put("Suresh R", "777 777 7777");
+        contacts.put("Harish P", "888 888 8888");
+        contacts.put("Swathi K", "999 999 9999");
+
+        contacts.put("Harish P", "999 888 8888");
+        contacts.put("Swathi K", "888 999 9999");
+
+        contacts.remove("Harish P");
+        contacts.remove("Swathi K");
+
+    }
 }
+
