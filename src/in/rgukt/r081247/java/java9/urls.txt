@@ -1,6 +1,8 @@
 https://docs.oracle.com/javase/9/
-
-Need to go through
-
 https://docs.oracle.com/javase/9/whatsnew/toc.htm
-http://openjdk.java.net/projects/jigsaw/
+
+https://www.baeldung.com/project-jigsaw-java-modularity
+https://www.baeldung.com/java-9-modularity
+https://github.com/eugenp/tutorials/tree/master/core-java-modules/core-java-9-jigsaw
+
+https://www.oracle.com/corporate/features/understanding-java-9-modules.html

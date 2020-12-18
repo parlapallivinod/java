@@ -46,5 +46,4 @@ public class Menu extends MenuComponent {
             component.print();
         }
     }
-
 }

@@ -56,42 +56,10 @@
       <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="ArrayMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.algorithm.sorting.ArrayMergeSort" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.algorithm.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.creational.prototype.Circle" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.creational.prototype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.practice.Main" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,12 +77,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.creational.prototype.Shape" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.structural.composite.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.creational.prototype.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.structural.composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.practice.Main" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.rgukt.r081247.java.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.structural.decorator.Main" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.structural.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.ArrayMergeSort" />
-        <item itemvalue="Application.Shape" />
-        <item itemvalue="Application.Circle" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -205,30 +199,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="Stategy, Observer, Decorator patterns" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="100" width="548" height="583" key="#com.intellij.ide.util.MemberChooser" timestamp="1605957984605">
+    <state x="491" y="100" width="548" height="583" key="#com.intellij.ide.util.MemberChooser" timestamp="1607828674322">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state x="491" y="100" width="548" height="583" key="#com.intellij.ide.util.MemberChooser/0.27.1366.708@0.27.1366.708" timestamp="1605957984605" />
+    <state x="491" y="100" width="548" height="583" key="#com.intellij.ide.util.MemberChooser/0.27.1366.708@0.27.1366.708" timestamp="1607828674322" />
     <state x="416" y="129" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605535588399">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
     <state x="416" y="129" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.708@0.27.1366.708" timestamp="1605535588399" />
-    <state width="1320" height="355" key="GridCell.Tab.0.bottom" timestamp="1606618612315">
+    <state width="1320" height="354" key="GridCell.Tab.0.bottom" timestamp="1607833957675">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="355" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1606618612315" />
-    <state width="1320" height="355" key="GridCell.Tab.0.center" timestamp="1606618612314">
+    <state width="1320" height="354" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1607833957675" />
+    <state width="1320" height="354" key="GridCell.Tab.0.center" timestamp="1607833957675">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="355" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1606618612314" />
-    <state width="1320" height="355" key="GridCell.Tab.0.left" timestamp="1606618612314">
+    <state width="1320" height="354" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1607833957675" />
+    <state width="1320" height="354" key="GridCell.Tab.0.left" timestamp="1607833957675">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="355" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1606618612314" />
-    <state width="1320" height="355" key="GridCell.Tab.0.right" timestamp="1606618612314">
+    <state width="1320" height="354" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1607833957674" />
+    <state width="1320" height="354" key="GridCell.Tab.0.right" timestamp="1607833957675">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="355" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1606618612314" />
+    <state width="1320" height="354" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1607833957675" />
+    <state width="1320" height="354" key="GridCell.Tab.1.bottom" timestamp="1607833957676">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="1320" height="354" key="GridCell.Tab.1.bottom/0.27.1366.708@0.27.1366.708" timestamp="1607833957676" />
+    <state width="1320" height="354" key="GridCell.Tab.1.center" timestamp="1607833957676">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="1320" height="354" key="GridCell.Tab.1.center/0.27.1366.708@0.27.1366.708" timestamp="1607833957676" />
+    <state width="1320" height="354" key="GridCell.Tab.1.left" timestamp="1607833957676">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="1320" height="354" key="GridCell.Tab.1.left/0.27.1366.708@0.27.1366.708" timestamp="1607833957676" />
+    <state width="1320" height="354" key="GridCell.Tab.1.right" timestamp="1607833957676">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state width="1320" height="354" key="GridCell.Tab.1.right/0.27.1366.708@0.27.1366.708" timestamp="1607833957676" />
     <state x="346" y="56" width="672" height="678" key="search.everywhere.popup" timestamp="1603415546153">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
