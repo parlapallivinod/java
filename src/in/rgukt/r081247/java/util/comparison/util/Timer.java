@@ -4,7 +4,7 @@
  * Timer class is used capture time consumed between start and stop operations.
  */
 
-package in.rgukt.r081247.java.comparison.util;
+package in.rgukt.r081247.java.util.comparison.util;
 
 public class Timer {
     private long start;

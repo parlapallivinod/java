@@ -1,4 +1,4 @@
-package in.rgukt.r081247.java.practice;
+package in.rgukt.r081247.java.util.practice;
 
 import java.util.LinkedList;
 import java.util.Queue;

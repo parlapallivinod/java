@@ -4,9 +4,9 @@
  * Used to compare time consumption with String concatenation and StringBuilder concatenation.
  */
 
-package in.rgukt.r081247.java.comparison;
+package in.rgukt.r081247.java.util.comparison;
 
-import in.rgukt.r081247.java.comparison.util.Timer;
+import in.rgukt.r081247.java.util.comparison.util.Timer;
 
 import java.util.stream.IntStream;
 
