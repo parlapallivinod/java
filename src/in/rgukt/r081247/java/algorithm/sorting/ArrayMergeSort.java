@@ -37,8 +37,8 @@ public class ArrayMergeSort {
     }
 
     public static void main(String[] args) {
-        List<Integer> list = Stream.iterate(100_000_000, i -> i - 1)
-                .limit(100_000_000).collect(Collectors.toList());
+        List<Integer> list = Stream.iterate(10_000_000, i -> i - 1)
+                .limit(10_000_000).collect(Collectors.toList());
         Integer[] nums = new Integer[list.size()];
         nums = list.toArray(nums);
         long start = System.currentTimeMillis();

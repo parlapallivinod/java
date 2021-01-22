@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Kotlin File" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -60,23 +60,16 @@
       <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="ApplicationConfigurator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.creational.abstractfactory.ApplicationConfigurator" />
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="ArrayMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.algorithm.sorting.ArrayMergeSort" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.creational.abstractfactory.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.algorithm.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,11 +88,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.structural.composite.Main" />
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.behavioral.templatemethod.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.structural.composite.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.behavioral.templatemethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.creational.factory.Main" />
+    <configuration name="NonRecursiveMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.algorithm.sorting.NonRecursiveMergeSort" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.creational.factory.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.algorithm.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.util.practice.Main" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.algorithm.sorting.QuickSort" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.util.practice.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.algorithm.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,10 +128,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.ApplicationConfigurator" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.NonRecursiveMergeSort" />
+        <item itemvalue="Application.ArrayMergeSort" />
         <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
@@ -228,22 +221,22 @@
       <screen x="0" y="27" width="1366" height="708" />
     </state>
     <state x="416" y="129" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.708@0.27.1366.708" timestamp="1605535588399" />
-    <state width="1320" height="126" key="GridCell.Tab.0.bottom" timestamp="1609386476155">
+    <state width="1320" height="278" key="GridCell.Tab.0.bottom" timestamp="1610847917062">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="126" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1609386476155" />
-    <state width="1320" height="126" key="GridCell.Tab.0.center" timestamp="1609386476154">
+    <state width="1320" height="278" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1610847917062" />
+    <state width="1320" height="278" key="GridCell.Tab.0.center" timestamp="1610847917061">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="126" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1609386476154" />
-    <state width="1320" height="126" key="GridCell.Tab.0.left" timestamp="1609386476154">
+    <state width="1320" height="278" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1610847917061" />
+    <state width="1320" height="278" key="GridCell.Tab.0.left" timestamp="1610847917060">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="126" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1609386476154" />
-    <state width="1320" height="126" key="GridCell.Tab.0.right" timestamp="1609386476154">
+    <state width="1320" height="278" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1610847917060" />
+    <state width="1320" height="278" key="GridCell.Tab.0.right" timestamp="1610847917062">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="126" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1609386476154" />
+    <state width="1320" height="278" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1610847917062" />
     <state width="1320" height="354" key="GridCell.Tab.1.bottom" timestamp="1607833957676">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
