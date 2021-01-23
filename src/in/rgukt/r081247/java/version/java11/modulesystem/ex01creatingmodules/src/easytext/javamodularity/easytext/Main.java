@@ -1,4 +1,4 @@
-package in.rgukt.r081247.java.samplepackage;
+package javamodularity.easytext;
 
 import java.util.List;
 import java.util.LinkedList;
