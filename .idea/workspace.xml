@@ -60,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="ArrayMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.algorithm.sorting.ArrayMergeSort" />
       <module name="java" />
@@ -128,8 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.NonRecursiveMergeSort" />
         <item itemvalue="Application.ArrayMergeSort" />
         <item itemvalue="Application.Main (3)" />
@@ -209,10 +209,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Stategy, Observer, Decorator patterns" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="100" width="548" height="583" key="#com.intellij.ide.util.MemberChooser" timestamp="1609464503542">
+    <state x="491" y="100" width="548" height="583" key="#com.intellij.ide.util.MemberChooser" timestamp="1611478181926">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state x="491" y="100" width="548" height="583" key="#com.intellij.ide.util.MemberChooser/0.27.1366.708@0.27.1366.708" timestamp="1609464503542" />
+    <state x="491" y="100" width="548" height="583" key="#com.intellij.ide.util.MemberChooser/0.27.1366.708@0.27.1366.708" timestamp="1611478181926" />
     <state x="440" y="288" width="625" height="193" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1608433548998">
       <screen x="0" y="27" width="1366" height="708" />
     </state>

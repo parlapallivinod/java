@@ -4,18 +4,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-       List<String> list = new ArrayList<>();
-       list.add("One");
-       list.add("Two");
-       list.add("Three");
-       list.add("Four");
-       list.add("Five");
-       System.out.println(list);
-
-       list.remove("Two");
-       System.out.println(list);
-
-       list.remove(1);
-       System.out.println(list);
+       Super s = new Super();
+       System.out.println(s.getCount(1));
+       System.out.println(s.getCount());
     }
 }
