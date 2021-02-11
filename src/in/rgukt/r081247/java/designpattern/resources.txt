@@ -1,8 +1,0 @@
-https://refactoring.guru/design-patterns/
-
-https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/
-https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/
-
-https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/
-https://www.freecodecamp.org/news/java-object-oriented-programming-system-principles-oops-concepts-for-beginners/
-

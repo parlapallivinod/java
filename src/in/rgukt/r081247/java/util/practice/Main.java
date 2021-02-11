@@ -1,91 +1,56 @@
 package in.rgukt.r081247.java.util.practice;
 
+import java.io.IOException;
+import java.sql.Time;
 import java.util.*;
+import java.util.concurrent.*;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+import java.util.function.IntConsumer;
 
 public class Main {
-    public static void main(String[] args) throws Exception{
-        ResourceA ra = new ResourceA();
-        ResourceB rb = new ResourceB();
-        ra.setRb(rb);
-        rb.setRa(ra);
-
-        Thread ta = new Thread(() -> {
-            ra.getResourceA();
-        }, "Thread A");
-        Thread tb = new Thread(() -> {
-            rb.getResourceB();
-        }, "Thread B");
-
-        ta.start();
-        try {
-            Thread.sleep(0);
-        } catch (Exception e) {
-            System.out.println(e);
-        }
-        tb.start();
-
-        ta.join();
-        tb.join();
-
-    }
-
-    public static class ResourceA {
-        private ResourceB rb;
-
-        public ResourceB getRb() {
-            return rb;
-        }
-
-        public void setRb(ResourceB rb) {
-            this.rb = rb;
-        }
-
-        public synchronized void getResourceA() {
-            System.out.println("In ResourceA.getResourceA() from " + Thread.currentThread().getName());
-            /*
-            try {
-                Thread.sleep(1000);
-            } catch (Exception e) {
-                System.out.println(e);
+    public static void main(String[] args) throws Exception {
+        /*
+        String state = switch (State.WAITING) {
+            case CREATED -> {
+                System.out.println("in Created");
+                yield "Created";
             }
-            */
-
-            System.out.println("Calling ResourceB.getResourceA() from " + Thread.currentThread().getName());
-            rb.getResourceA();
-        }
-
-        public synchronized  void getResourceB() {
-            System.out.println("In ResourceA.getResourceB() from " + Thread.currentThread().getName());
-        }
-    }
-
-    public static class ResourceB {
-        private ResourceA ra;
-
-        public ResourceA getRa() {
-            return ra;
-        }
-
-        public void setRa(ResourceA ra) {
-            this.ra = ra;
-        }
-
-        public synchronized void getResourceB() {
-            System.out.println("In ResourceB.getResourceB() from " + Thread.currentThread().getName());
-            /*
-            try {
-                Thread.sleep(1000);
-            } catch (Exception e) {
-                System.out.println(e);
+            case RUNNING -> {
+                System.out.println("in Running");
+                yield "Running";
             }
-            */
+            case WAITING -> {
+                System.out.println("in Waiting");
+                yield "Waiting";
+            }
+            case COMPLETED -> {
+                System.out.println("in Completed");
+                yield "Completed";
+            }
+            default -> {
+                System.out.println("in Default");
+                yield "Default";
+            }
+        };
 
-            System.out.println("Calling ResourceA.getResourceB() from " + Thread.currentThread().getName());
-            ra.getResourceB();
-        }
+        System.out.println(state);
+         */
 
-        public synchronized  void getResourceA() {
-            System.out.println("In ResourceB.getResourceA() from " + Thread.currentThread().getName());
-        }
+        String json = """
+                {
+                  "id": 2,
+                  "name": "Vinod Parlapalli"
+                }
+                """;
+        System.out.println(json);
     }
+
+    public static enum State {
+        CREATED, RUNNING, WAITING, COMPLETED
+    }
+
+
+
 }

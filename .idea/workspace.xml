@@ -35,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/in/rgukt/r081247/java/version/java15" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -43,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -57,7 +58,11 @@
       <recent name="io.datastructure.tree" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming" />
+      <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/version/java15" />
+      <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/version/java14" />
+      <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/version/java13" />
+      <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/version/java12" />
+      <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/version/java11" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -209,6 +214,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Stategy, Observer, Decorator patterns" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="166" y="27" width="1024" height="708" key="#Project_Structure" timestamp="1612832839012">
+      <screen x="0" y="27" width="1366" height="708" />
+    </state>
+    <state x="166" y="27" width="1024" height="708" key="#Project_Structure/0.27.1366.708@0.27.1366.708" timestamp="1612832839012" />
     <state x="491" y="100" width="548" height="583" key="#com.intellij.ide.util.MemberChooser" timestamp="1611671907404">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
@@ -221,22 +230,22 @@
       <screen x="0" y="27" width="1366" height="708" />
     </state>
     <state x="416" y="129" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.708@0.27.1366.708" timestamp="1605535588399" />
-    <state width="1320" height="194" key="GridCell.Tab.0.bottom" timestamp="1611679324238">
+    <state width="1320" height="406" key="GridCell.Tab.0.bottom" timestamp="1612198467637">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="194" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1611679324238" />
-    <state width="1320" height="194" key="GridCell.Tab.0.center" timestamp="1611679324237">
+    <state width="1320" height="406" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1612198467637" />
+    <state width="1320" height="406" key="GridCell.Tab.0.center" timestamp="1612198467636">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="194" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1611679324237" />
-    <state width="1320" height="194" key="GridCell.Tab.0.left" timestamp="1611679324237">
+    <state width="1320" height="406" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1612198467636" />
+    <state width="1320" height="406" key="GridCell.Tab.0.left" timestamp="1612198467635">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="194" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1611679324237" />
-    <state width="1320" height="194" key="GridCell.Tab.0.right" timestamp="1611679324238">
+    <state width="1320" height="406" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1612198467635" />
+    <state width="1320" height="406" key="GridCell.Tab.0.right" timestamp="1612198467637">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="194" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1611679324238" />
+    <state width="1320" height="406" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1612198467637" />
     <state width="1320" height="354" key="GridCell.Tab.1.bottom" timestamp="1607833957676">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
@@ -253,10 +262,6 @@
       <screen x="0" y="27" width="1366" height="708" />
     </state>
     <state width="1320" height="354" key="GridCell.Tab.1.right/0.27.1366.708@0.27.1366.708" timestamp="1607833957676" />
-    <state x="346" y="56" width="672" height="678" key="search.everywhere.popup" timestamp="1603415546153">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state x="346" y="56" width="672" height="678" key="search.everywhere.popup/0.27.1366.708@0.27.1366.708" timestamp="1603415546153" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -298,79 +303,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>java</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
