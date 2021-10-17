@@ -36,26 +36,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/in/rgukt/r081247/java/version/java15" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="in.rgukt.r081247.java.util" />
       <recent name="in.rgukt.r081247.java.version" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="in.rgukt.r081247.java.designpattern.creational.factory.test" />
-      <recent name="in.rgukt.r081247.java.designpattern.creational.prototype" />
-      <recent name="in.rgukt.r081247.java.datastructure.map" />
-      <recent name="in.rgukt.r081247.java.comparison" />
-      <recent name="io.datastructure.tree" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/version/java15" />
@@ -64,14 +53,25 @@
       <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/version/java12" />
       <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/version/java11" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="in.rgukt.r081247.java.concurrency" />
+      <recent name="in.rgukt.r081247.java.designpattern.creational.factory.test" />
+      <recent name="in.rgukt.r081247.java.designpattern.creational.prototype" />
+      <recent name="in.rgukt.r081247.java.datastructure.map" />
+      <recent name="in.rgukt.r081247.java.comparison" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="ArrayMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.algorithm.sorting.ArrayMergeSort" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.behavioral.visitor.Demo" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.algorithm.sorting.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.behavioral.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +79,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.behavioral.templatemethod.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.behavioral.state.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.behavioral.templatemethod.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.behavioral.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.util.practice.Main" />
+    <configuration name="ScatterGatterPattern01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.concurrency.defogtech.ScatterGatterPattern01" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.util.practice.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.concurrency.defogtech.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,25 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonRecursiveMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.algorithm.sorting.NonRecursiveMergeSort" />
+    <configuration name="ScatterGatterPattern02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.concurrency.defogtech.ScatterGatterPattern02" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.algorithm.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.algorithm.sorting.QuickSort" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.algorithm.sorting.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.concurrency.defogtech.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.NonRecursiveMergeSort" />
-        <item itemvalue="Application.ArrayMergeSort" />
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.ScatterGatterPattern02" />
+        <item itemvalue="Application.ScatterGatterPattern01" />
       </list>
     </recent_temporary>
   </component>
@@ -214,54 +208,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="Stategy, Observer, Decorator patterns" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="166" y="27" width="1024" height="708" key="#Project_Structure" timestamp="1612832839012">
+    <state x="491" y="100" width="548" height="583" key="#com.intellij.ide.util.MemberChooser" timestamp="1634398064995">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state x="166" y="27" width="1024" height="708" key="#Project_Structure/0.27.1366.708@0.27.1366.708" timestamp="1612832839012" />
-    <state x="491" y="100" width="548" height="583" key="#com.intellij.ide.util.MemberChooser" timestamp="1611671907404">
+    <state x="491" y="100" width="548" height="583" key="#com.intellij.ide.util.MemberChooser/0.27.1366.708@0.27.1366.708" timestamp="1634398064995" />
+    <state width="1320" height="251" key="GridCell.Tab.0.bottom" timestamp="1631414944724">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state x="491" y="100" width="548" height="583" key="#com.intellij.ide.util.MemberChooser/0.27.1366.708@0.27.1366.708" timestamp="1611671907404" />
-    <state x="440" y="288" width="625" height="193" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1608433548998">
+    <state width="1320" height="251" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1631414944724" />
+    <state width="1320" height="251" key="GridCell.Tab.0.center" timestamp="1631414944723">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state x="440" y="288" width="625" height="193" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.27.1366.708@0.27.1366.708" timestamp="1608433548998" />
-    <state x="416" y="129" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605535588399">
+    <state width="1320" height="251" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1631414944723" />
+    <state width="1320" height="251" key="GridCell.Tab.0.left" timestamp="1631414944723">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state x="416" y="129" width="524" height="510" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.708@0.27.1366.708" timestamp="1605535588399" />
-    <state width="1320" height="406" key="GridCell.Tab.0.bottom" timestamp="1612198467637">
+    <state width="1320" height="251" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1631414944723" />
+    <state width="1320" height="251" key="GridCell.Tab.0.right" timestamp="1631414944724">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="406" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1612198467637" />
-    <state width="1320" height="406" key="GridCell.Tab.0.center" timestamp="1612198467636">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state width="1320" height="406" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1612198467636" />
-    <state width="1320" height="406" key="GridCell.Tab.0.left" timestamp="1612198467635">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state width="1320" height="406" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1612198467635" />
-    <state width="1320" height="406" key="GridCell.Tab.0.right" timestamp="1612198467637">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state width="1320" height="406" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1612198467637" />
-    <state width="1320" height="354" key="GridCell.Tab.1.bottom" timestamp="1607833957676">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state width="1320" height="354" key="GridCell.Tab.1.bottom/0.27.1366.708@0.27.1366.708" timestamp="1607833957676" />
-    <state width="1320" height="354" key="GridCell.Tab.1.center" timestamp="1607833957676">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state width="1320" height="354" key="GridCell.Tab.1.center/0.27.1366.708@0.27.1366.708" timestamp="1607833957676" />
-    <state width="1320" height="354" key="GridCell.Tab.1.left" timestamp="1607833957676">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state width="1320" height="354" key="GridCell.Tab.1.left/0.27.1366.708@0.27.1366.708" timestamp="1607833957676" />
-    <state width="1320" height="354" key="GridCell.Tab.1.right" timestamp="1607833957676">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state width="1320" height="354" key="GridCell.Tab.1.right/0.27.1366.708@0.27.1366.708" timestamp="1607833957676" />
+    <state width="1320" height="251" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1631414944724" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
