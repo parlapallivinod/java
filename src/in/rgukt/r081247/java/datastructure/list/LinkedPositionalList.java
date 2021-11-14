@@ -12,7 +12,7 @@ import java.util.NoSuchElementException;
  * Implementation of a positional list stored as a doubly linked list.
  * @param <E>
  */
-public class LinkedPositionalList<E> implements PositionalList<E> {
+public class LinkedPositionalList<E> implements PositionalList<E>{
 
     /**
      * nested Node class

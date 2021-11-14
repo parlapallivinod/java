@@ -9,7 +9,7 @@ package in.rgukt.r081247.java.datastructure.list;
  * An interface for positional lists.
  * @param <E>
  */
-public interface PositionalList<E> {
+public interface PositionalList<E> extends Iterable<E>{
     /**
      * Returns the numer of elements in the list.
      * @return

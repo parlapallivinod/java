@@ -18,17 +18,115 @@ import java.time.*;
 
 public class Main {
     public static void main(String[] args) {
-        Queue<Integer> q = new PriorityQueue<>((i1, i2) -> i1 - i2);
-        q.offer(10);
-        q.offer(9);
-        q.offer(8);
-        q.offer(7);
-        q.offer(6);
-        q.offer(5);
-        q.offer(4);
+       CommonStore<Integer> store = new CommonStore<>(10);
+       Producer p1 = new Producer(store);
+        Producer p2 = new Producer(store);
+       Consumer c1 = new Consumer(store);
+       //Consumer c2 = new Consumer(store);
 
-        while (!q.isEmpty())
-            System.out.println(q.poll());
+       Thread p1t = new Thread(p1, "Producer 1");
+       Thread p2t = new Thread(p1, "Producer 2");
+       Thread c1t = new Thread(c1, "Consumer 1");
+       Thread c2t = new Thread(c1, "Consumer 2");
 
+       p1t.start();
+       p2t.start();
+       c1t.start();
+       c2t.start();
+
+       try {
+           p1t.join();
+           p2t.join();
+           c1t.join();
+           c2t.join();
+       } catch (InterruptedException e) {
+           e.printStackTrace();
+       }
+    }
+
+    public static class CommonStore<T> {
+
+        private Deque<T> arr = new LinkedList<>();
+        private int size;
+
+        public CommonStore(int size) {
+            this.size = size;
+        }
+
+        public synchronized  void put(T element) {
+            while (arr.size() >= size) {
+                try {
+                    wait();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            arr.addLast(element);
+
+            notifyAll();
+
+        }
+
+        public synchronized T  get() {
+            while (arr.size() == 0) {
+                try {
+                    wait();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            T element = arr.removeFirst();
+            notifyAll();
+            return element;
+        }
+    }
+
+    public static class Producer implements Runnable{
+        private Random r = new Random();
+        private CommonStore<Integer> store = null;
+
+        public Producer(CommonStore<Integer> store) {
+            this.store = store;
+        }
+
+        @Override
+        public void run() {
+            while (true) {
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+                Integer i = r.nextInt(1000);
+                store.put(i);
+                System.out.println("Producer[" + Thread.currentThread().getName() + "]: " + i);
+            }
+        }
+    }
+
+    public static class Consumer implements Runnable{
+        private CommonStore<Integer> store = null;
+
+        public Consumer(CommonStore<Integer> store) {
+            this.store = store;
+        }
+
+        @Override
+        public void run() {
+            while (true) {
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+
+                Integer i = store.get();
+                System.out.println("                                                                               Consumer[" + Thread.currentThread().getName() + "]: " + i);
+            }
+        }
     }
 }
