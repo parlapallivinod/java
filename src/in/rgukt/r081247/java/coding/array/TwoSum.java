@@ -1,7 +1,57 @@
 package in.rgukt.r081247.java.coding.array;
 
 import java.util.*;
+import java.util.*;
 class TwoSum {
+    //Approach 1: Brute Force Time: O(n2) Space: O(1)
+    class Solution1 {
+        public int[] twoSum(int[] nums, int target) {
+            for (int i = 0; i < nums.length; i++) {
+                for (int j = i + 1; j < nums.length; j++) {
+                    if (nums[j] == target - nums[i]) {
+                        return new int[] { i, j };
+                    }
+                }
+            }
+            // In case there is no solution, we'll just return null
+            return null;
+        }
+    }
+
+    //Approach 2:  Two-pass Hash Table Time: O(n) Space: O(n)
+    class Solution2 {
+        public int[] twoSum(int[] nums, int target) {
+            Map<Integer, Integer> map = new HashMap<>();
+            for (int i = 0; i < nums.length; i++) {
+                map.put(nums[i], i);
+            }
+            for (int i = 0; i < nums.length; i++) {
+                int complement = target - nums[i];
+                if (map.containsKey(complement) && map.get(complement) != i) {
+                    return new int[] { i, map.get(complement) };
+                }
+            }
+            // In case there is no solution, we'll just return null
+            return null;
+        }
+    }
+
+    //Approach 3: One-pass Hash Table ime: O(n) Space: O(n)
+    class Solution {
+        public int[] twoSum(int[] nums, int target) {
+            Map<Integer, Integer> map = new HashMap<>();
+            for (int i = 0; i < nums.length; i++) {
+                int complement = target - nums[i];
+                if (map.containsKey(complement)) {
+                    return new int[] { map.get(complement), i };
+                }
+                map.put(nums[i], i);
+            }
+            // In case there is no solution, we'll just return null
+            return null;
+        }
+    }
+
     public int[] twoSum(int[] nums, int target) {
         int[] arr = null;
         /*
@@ -22,7 +72,7 @@ class TwoSum {
             map.put(nums[i], i);
         }
         for (int i = 0; i < nums.length; i++) {
-            if (map.containsKey(nums[i]) && map.containsKey(target-nums[i]) && map.get(target-nums[i]) != i) {
+            if (map.containsKey(target-nums[i]) && map.get(target-nums[i]) != i) {
                 arr = new int[] {i,  map.get(target-nums[i])};
                 break;
             }
@@ -39,7 +89,7 @@ class TwoSum {
             set.add(i);
         }
         for (int i = 0; i < nums.length; i++) {
-            if (map.containsKey(nums[i]) && map.containsKey(target-nums[i])) {
+            if (map.containsKey(target-nums[i])) {
                 if (nums[i] == target-nums[i]) {
                     Object[] a = map.get(target-nums[i]).toArray();
                     if (a.length > 1) {
