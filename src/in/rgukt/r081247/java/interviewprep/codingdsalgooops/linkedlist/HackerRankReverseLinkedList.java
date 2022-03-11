@@ -1,16 +1,8 @@
-package in.rgukt.r081247.java.coding.linkedlist;
+package in.rgukt.r081247.java.interviewprep.codingdsalgooops.linkedlist;
 
 import java.io.*;
-        import java.math.*;
-        import java.security.*;
-        import java.text.*;
-        import java.util.*;
-        import java.util.concurrent.*;
-        import java.util.function.*;
-        import java.util.regex.*;
-        import java.util.stream.*;
+import java.util.stream.*;
         import static java.util.stream.Collectors.joining;
-        import static java.util.stream.Collectors.toList;
 
 class SinglyLinkedListNode {
     public int data;
@@ -82,8 +74,6 @@ class Result {
 
         SinglyLinkedListNode head = llist;
         SinglyLinkedListNode prev = null;
-        if (llist == null)
-            return null;
 
         while (head != null) {
             SinglyLinkedListNode temp = head.next;
@@ -97,7 +87,7 @@ class Result {
 
 }
 
-public class ReverseLinkedList {
+public class HackerRankReverseLinkedList {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));

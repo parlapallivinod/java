@@ -1,4 +1,4 @@
-package in.rgukt.r081247.java.coding.array;
+package in.rgukt.r081247.java.interviewprep.codingdsalgooops.array;
 
 class BestTimetoBuyandSellStock {
     // Approach 1: Brute Force

@@ -10,7 +10,7 @@ public class Semaphore2 {
         //Semaphore semaphore = new Semaphore(3);
         Semaphore semaphore = new  Semaphore(3);
         ExecutorService service = Executors.newFixedThreadPool(50);
-        IntStream.range(1, 1000).forEach(i -> service.execute(new Semaphore1.Task(semaphore)));
+        IntStream.range(1, 1000).forEach(i -> service.execute(new Semaphore2.Task(semaphore)));
         service.shutdown();
         service.awaitTermination(1, TimeUnit.MINUTES);
     }
@@ -32,7 +32,7 @@ public class Semaphore2 {
                 e.printStackTrace();
             }
             // IO call to the slow service
-            //semaphore.release();
+            semaphore.release();
             // rest of processing
             System.out.println(Thread.currentThread().getName());
         }

@@ -117,7 +117,7 @@ public class LinkedBinaryTree<E> extends AbstractBinaryTree<E> {
     @Override
     public Position<E> right(Position<E> p) throws IllegalArgumentException {
         Node<E> node = validate(p);
-        return node.getParent();
+        return node.getRight();
     }
 
     /** Returns the root Position of the tree (or null if tree is empty). */

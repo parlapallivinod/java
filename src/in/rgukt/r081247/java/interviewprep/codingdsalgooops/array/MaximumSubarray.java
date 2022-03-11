@@ -1,4 +1,4 @@
-package in.rgukt.r081247.java.coding.array;
+package in.rgukt.r081247.java.interviewprep.codingdsalgooops.array;
 
 class MaximumSubarray {
     // Brute Force Time: O(n2) Space: O(1)

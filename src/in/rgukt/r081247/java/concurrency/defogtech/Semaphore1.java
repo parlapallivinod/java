@@ -3,14 +3,13 @@ package in.rgukt.r081247.java.concurrency.defogtech;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
-import static in.rgukt.r081247.java.concurrency.defogtech.Semaphore2.*;
 
 public class Semaphore1 {
     public static void main(String[] args) throws InterruptedException {
-        //Semaphore semaphore = new Semaphore(3);
-        Semaphore semaphore = new  Semaphore(3);
+        Semaphore semaphore = new Semaphore(3);
         ExecutorService service = Executors.newFixedThreadPool(50);
         IntStream.range(1, 1000).forEach(i -> service.execute(new Task(semaphore)));
         service.shutdown();
@@ -34,7 +33,7 @@ public class Semaphore1 {
                 e.printStackTrace();
             }
             // IO call to the slow service
-            //semaphore.release();
+            semaphore.release();
             // rest of processing
             System.out.println(Thread.currentThread().getName());
         }

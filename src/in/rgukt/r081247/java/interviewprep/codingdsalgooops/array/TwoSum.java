@@ -1,7 +1,7 @@
-package in.rgukt.r081247.java.coding.array;
+package in.rgukt.r081247.java.interviewprep.codingdsalgooops.array;
 
 import java.util.*;
-import java.util.*;
+
 class TwoSum {
     //Approach 1: Brute Force Time: O(n2) Space: O(1)
     class Solution1 {

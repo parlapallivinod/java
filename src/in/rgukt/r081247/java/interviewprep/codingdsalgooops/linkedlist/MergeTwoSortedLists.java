@@ -1,7 +1,6 @@
-package in.rgukt.r081247.java.coding.linkedlist;
+package in.rgukt.r081247.java.interviewprep.codingdsalgooops.linkedlist;
 
-import java.io.*;
-        import java.util.*;
+import java.util.*;
 
 public class MergeTwoSortedLists {
 

@@ -1,6 +1,5 @@
-package in.rgukt.r081247.java.coding.tree;
+package in.rgukt.r081247.java.interviewprep.codingdsalgooops.tree;
 
-import java.io.*;
 import java.util.*;
 
 public class LowestCommonAncestorofBST {

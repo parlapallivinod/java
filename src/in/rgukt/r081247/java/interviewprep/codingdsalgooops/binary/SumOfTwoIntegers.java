@@ -1,4 +1,4 @@
-package in.rgukt.r081247.java.coding.binary;
+package in.rgukt.r081247.java.interviewprep.codingdsalgooops.binary;
 
 class SumOfTwoIntegers {
     public int getSum(int a, int b) {
