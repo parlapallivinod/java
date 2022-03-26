@@ -1,96 +1,64 @@
 package in.rgukt.r081247.java.interviewprep.codingdsalgooops.tree;
 
-
-import java.util.*;
+import java.util.Deque;
+import java.util.LinkedList;
 
 public class MaximumDepthofBinaryTree {
+     // Definition for a binary tree node.
+     public class TreeNode {
+         int val;
+         TreeNode left;
+         TreeNode right;
+         TreeNode() {}
+         TreeNode(int val) { this.val = val; }
+         TreeNode(int val, TreeNode left, TreeNode right) {
+             this.val = val;
+             this.left = left;
+             this.right = right;
+         }
+     }
 
-    public static class Node {
-        public Node parent;
-        public Node leftChild;
-        public Node rightChild;
-        public int data;
-    }
-
-    public static class Tree {
-        public Node root;
-
-        public void add(int data) {
-            Node n = new Node();
-            n.data = data;
-
-            if (root == null) {
-                root = n;
-                return;
-            }
-
-            Node temp = root;
-            while (temp != null) {
-                if (n.data < temp.data) {
-                    if (temp.leftChild != null) {
-                        temp = temp.leftChild;
-                    } else {
-                        n.parent = temp;
-                        temp.leftChild = n;
-                        break;
-                    }
-                } else {
-                    if (temp.rightChild != null) {
-                        temp = temp.rightChild;
-                    } else {
-                        n.parent = temp;
-                        temp.rightChild = n;
-                        break;
-                    }
-                }
-            }
-
-        }
-
-        public int getHeight() {
-            int height = -1;
-            Deque<Node> parent = new LinkedList<>();
-            Deque<Node> child = new LinkedList<>();
-            parent.offer(root);
-
-            while (!parent.isEmpty()) {
-                Node n = parent.poll();
-                if (n.leftChild != null) {
-                    child.offer(n.leftChild);
-                }
-                if (n.rightChild != null) {
-                    child.offer(n.rightChild);
-                }
-
-                if (parent.isEmpty()) {
-                    height++;
-                    Deque<Node> temp = parent;
-                    parent = child;
-                    child = temp;
-                }
-
-            }
-
-            return height;
-
+    /**
+     * Approach   : Recursion DFS
+     * Complexity : Time: O(n) ; Space: O(log(n)(max depth path))
+     */
+    class Solution1 {
+        public int maxDepth(TreeNode root) {
+            int depth = 0;
+            if (root == null)
+                return 0;
+            int leftDepth = maxDepth(root.left);
+            int rightDepth = maxDepth(root.right);
+            depth = Math.max(leftDepth + 1, rightDepth + 1);
+            return depth;
         }
     }
 
-    public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-
-        Scanner sc = new Scanner(System.in);
-        int count = sc.nextInt();
-        //System.out.println("count: " + count);
-        Tree t = new Tree();
-
-        while (count > 0) {
-            int data = sc.nextInt();
-            t.add(data);
-            count--;
+    /**
+     * Approach   : BFS
+     * Complexity : Time: O(n) ; Space: O(n)
+     */
+    class Solution2 {
+        public int maxDepth(TreeNode root) {
+            if(root == null)
+                return 0;
+            int depth = 0;
+            Deque<TreeNode> queue = new LinkedList<>();
+            queue.offer(root);
+            while(!queue.isEmpty()) {
+                depth++;
+                int size = queue.size();
+                while(size > 0) {
+                    TreeNode node = queue.poll();
+                    if(node.left != null)
+                        queue.offer(node.left);
+                    if(node.right != null)
+                        queue.offer(node.right);
+                    size--;
+                }
+            }
+            return depth;
         }
-
-        System.out.println(t.getHeight());
     }
 }
 

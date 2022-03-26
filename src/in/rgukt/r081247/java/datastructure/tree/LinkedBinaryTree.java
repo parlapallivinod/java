@@ -278,15 +278,14 @@ public class LinkedBinaryTree<E> extends AbstractBinaryTree<E> {
   
 
     public void printBFS(Node<E> node) {
-        Deque<Node<E>> parents = new LinkedList<Node<E>>();
+        Deque<Node<E>> parents = new LinkedList<>();
         parents.add(node);
 
-        Deque<Node<E>> children = new LinkedList<Node<E>>();
+        Deque<Node<E>> children = new LinkedList<>();
         long height = -1;
         while (! parents.isEmpty()) {
             height++;
             for (Node<E> n : parents) {
-                long prevElements = 0;
                 System.out.printf("%s", n.getElement());
                 if (n.getRight() != null)
                     children.add(n.getRight());
