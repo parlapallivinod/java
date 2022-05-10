@@ -7,5 +7,5 @@ https://www.youtube.com/playlist?list=PLN5xhykgh2Vmid6zi9lxzNYnQe_ZtEEsY
 
 https://leetcode.com/
 https://workat.tech/
+https://levels.fyi
 
-Status = 10/75

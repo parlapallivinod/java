@@ -1,4 +1,5 @@
 import in.rgukt.r081247.java.datastructure.list.Dequeue;
+import in.rgukt.r081247.java.interviewprep.codingdsalgooops.heap.MergeKSortedLists;
 
 import java.time.LocalDate;
 import java.time.Period;
@@ -6,30 +7,45 @@ import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+/*
+    011 3
+    010 2
+    001 1
+    000 0
+    111 -1
+    110 -2
+    101 -3
+    100 -4
+ */
+
 public class Main {
+    public static int coinChangeRecursive(int[] coins, int amount, int coinsCount) {
+        if(amount == 0)
+            return coinsCount;
+        int minCoins = Integer.MAX_VALUE;
+        for(int coin: coins) {
+            if(amount-coin >= 0) {
+                int tempCoinsCount = coinChangeRecursive(coins, amount-coin, coinsCount+1);
+                if(tempCoinsCount < minCoins)
+                    minCoins = tempCoinsCount;
+            }
+        }
+        return minCoins;
+    }
+    public static int coinChange(int[] coins, int amount) {
+        if(amount == 0 || coins.length == 0)
+            return 0;
+        int minCoins = coinChangeRecursive(coins, amount, 0);
+        if(minCoins == Integer.MAX_VALUE)
+            return -1;
+        return minCoins;
+    }
+
+
     public static void main(String[] args) {
-        List<String> strings = Arrays.asList("this", "is", "a", "long", "list", "of",
-                "strings", "to", "use", "as", "a", "demo");
-        Map<Boolean, List<String>> oddEvenStrings = strings.stream()
-                .collect(Collectors.partitioningBy(s -> s.length()%2 == 0));
-        System.out.println(oddEvenStrings);
-        Map<Integer, List<String>> lengthStrings = strings.stream()
-                .collect(Collectors.groupingBy(s -> s.length()));
-        System.out.println(lengthStrings);
-
-        Map<Boolean, Long> oddEvenStrings1 = strings.stream()
-                .collect(Collectors.partitioningBy(s -> s.length()%2 == 0, Collectors.counting()));
-        System.out.println(oddEvenStrings1);
-        Map<Integer, List<String>> lengthStrings1 = strings.stream()
-                .collect(Collectors.groupingBy(s -> s.length(), Collectors.mapping(Function.identity(), Collectors.toList())));
-        System.out.println(lengthStrings1);
-
-        Map<Integer, Set<String>> lengthStrings3 = strings.stream()
-                .collect(Collectors.groupingBy(s -> s.length(), Collectors.mapping(Function.identity(), Collectors.toSet())));
-        System.out.println(lengthStrings3);
-
-        Map<Integer, Optional<String>> list = strings.stream()
-                .collect(Collectors.groupingBy(s -> s.length(), Collectors.minBy(Comparator.naturalOrder())));
-        System.out.println(list);
+        int[] coins = new int[]{1, 3, 4, 5};
+        int amount = 7;
+        int coinCount = coinChange(coins, amount);
+        System.out.println("count: " + coinCount);
     }
 }

@@ -1,4 +1,7 @@
 
 
+
+https://leetcode.com/discuss/interview-question/object-oriented-design/124739/Parking-Lot-Design-Using-OO-Design
+
 Flipkart | Machine Coding | Design Online Coding Platform CODING BLOX / Leetcode LLD
 https://leetcode.com/discuss/interview-question/object-oriented-design/1177601/Flipkart-or-Machine-Coding-or-Design-Online-Coding-Platform-CODING-BLOX-Leetcode-LLD

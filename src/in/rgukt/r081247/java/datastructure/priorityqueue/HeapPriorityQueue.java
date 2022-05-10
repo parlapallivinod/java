@@ -219,6 +219,5 @@ public class HeapPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
         HeapPriorityQueue.pqSort(pl, pq);
         System.out.println(pl);
         */
-
     }
 }

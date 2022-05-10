@@ -16,8 +16,5 @@ public class Main {
         hb = new Mocha(hb);
         System.out.println(hb.getDescription());
         System.out.println(hb.cost());
-
-
-
     }
 }
