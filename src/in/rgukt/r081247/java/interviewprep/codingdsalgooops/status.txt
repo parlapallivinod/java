@@ -1,5 +1,7 @@
 Status = 14/75
 
+16. Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence/
+15. Coin Change - https://leetcode.com/problems/coin-change/
 14. Number of 1 Bits - https://leetcode.com/problems/number-of-1-bits/
 13. Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/
 12. Contains Duplicate - https://leetcode.com/problems/contains-duplicate/

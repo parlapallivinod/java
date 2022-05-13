@@ -19,33 +19,12 @@ import java.util.stream.Collectors;
  */
 
 public class Main {
-    public static int coinChangeRecursive(int[] coins, int amount, int coinsCount) {
-        if(amount == 0)
-            return coinsCount;
-        int minCoins = Integer.MAX_VALUE;
-        for(int coin: coins) {
-            if(amount-coin >= 0) {
-                int tempCoinsCount = coinChangeRecursive(coins, amount-coin, coinsCount+1);
-                if(tempCoinsCount < minCoins)
-                    minCoins = tempCoinsCount;
-            }
-        }
-        return minCoins;
-    }
-    public static int coinChange(int[] coins, int amount) {
-        if(amount == 0 || coins.length == 0)
-            return 0;
-        int minCoins = coinChangeRecursive(coins, amount, 0);
-        if(minCoins == Integer.MAX_VALUE)
-            return -1;
-        return minCoins;
-    }
-
 
     public static void main(String[] args) {
-        int[] coins = new int[]{1, 3, 4, 5};
-        int amount = 7;
-        int coinCount = coinChange(coins, amount);
-        System.out.println("count: " + coinCount);
+      Map<String, String> map = new HashMap<>();
+      map.put(null, "one");
+      map.put(null, null);
+      System.out.println(map);
+        System.out.println(map.containsKey(null));
     }
 }
