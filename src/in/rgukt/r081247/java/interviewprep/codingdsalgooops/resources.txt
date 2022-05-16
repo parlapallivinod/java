@@ -9,3 +9,14 @@ https://leetcode.com/
 https://workat.tech/
 https://levels.fyi
 
+Data Structures
+---------------------------
+Array
+Linked List
+HashMap
+Queue, Stack
+Binary Tree, Balanced Binary Search Tree
+Trie / Prefix Tree
+Heaps
+Graphs
+
