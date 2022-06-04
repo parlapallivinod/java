@@ -12,11 +12,24 @@ https://levels.fyi
 Data Structures
 ---------------------------
 Array
+    - ArrayList
+
 Linked List
+
 HashMap
 Queue, Stack
 Binary Tree, Balanced Binary Search Tree
 Trie / Prefix Tree
-Heaps
-Graphs
+Heap
+
+Graph
+    - Edge List
+    - Adjacency List
+    - Adjaceny Map
+    - Adjacency Matrix
+
+    - Depth First Search(DFS)
+    - Breadth First Search(BFS)
+    - Transitive Closure
+    - Topological Sort
 

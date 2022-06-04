@@ -1,5 +1,10 @@
-Status = 14/75
+Status = 18/75
 
+
+
+19. Pacific Atlantic Water Flow - https://leetcode.com/problems/pacific-atlantic-water-flow/
+18. Course Schedule - https://leetcode.com/problems/course-schedule/
+17. Find Median from Data Stream - https://leetcode.com/problems/find-median-from-data-stream/
 16. Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence/
 15. Coin Change - https://leetcode.com/problems/coin-change/
 14. Number of 1 Bits - https://leetcode.com/problems/number-of-1-bits/

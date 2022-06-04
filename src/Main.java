@@ -21,10 +21,9 @@ import java.util.stream.Collectors;
 public class Main {
 
     public static void main(String[] args) {
-      Map<String, String> map = new HashMap<>();
-      map.put(null, "one");
-      map.put(null, null);
-      System.out.println(map);
-        System.out.println(map.containsKey(null));
+        int i = -2147483648;
+        i = i << 2;
+        System.out.println(i);
+
     }
 }
