@@ -33,3 +33,14 @@ Graph
     - Transitive Closure
     - Topological Sort
 
+Sorting
+    - Merge Sort
+        - Array-Based Implementation of Merge-Sort
+        - Sorting Linked Lists
+        - A Bottom-Up (Nonrecursive) Merge-Sort
+    - Quick Sort
+        - Linked List
+        - In Place using Array
+    - Counting Sort, Bucket Sort
+    - Radix Sort
+    - Randomized Quick Select

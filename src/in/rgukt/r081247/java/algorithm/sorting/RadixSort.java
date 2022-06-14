@@ -35,6 +35,7 @@ public class RadixSort {
                 intNums[count[digit] - 1] = nums[j];
                 count[digit]--;
             }
+            
             for (int j = 0; j < nums.length; j++) {
                 nums[j] = intNums[j];
             }

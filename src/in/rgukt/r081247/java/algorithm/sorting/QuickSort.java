@@ -8,7 +8,7 @@ public class QuickSort {
         int n = queue.size();
         if (n < 2)                                  // queue is trivially sorted
             return;
-        T pivot = queue.poll();                     // using first as arbitrary pivot
+        T pivot = queue.peek();                     // using first as arbitrary pivot
         Queue<T> less = new LinkedList<>();
         Queue<T> equal = new LinkedList<>();
         Queue<T> more = new LinkedList<>();
@@ -79,20 +79,20 @@ public class QuickSort {
         /*
         Queue<Integer> queue = new LinkedList<>();
         Random random = new Random();
-        for (int i = 10_000_000; i > 0; i--) {
-            queue.offer(random.nextInt(10_000_000));
+        for (int i = 10; i > 0; i--) {
+            queue.offer(random.nextInt(10));
         }
 
-        //System.out.println("queue: " + queue);
+        System.out.println("queue: " + queue);
         long start = System.currentTimeMillis();
         quickSort(queue, (a, b) -> a - b);
         long end = System.currentTimeMillis();
         System.out.println("time: " + (end - start) + " ms");
-        //System.out.println("queue: " + queue);
+        System.out.println("queue: " + queue);
         */
 
-        /*
-        int size = 100000;
+
+        int size = 10;
         Integer[] arr = new Integer[size];
         for (int i = size; i > 0; i--) {
             arr[size - i] = i;
@@ -116,7 +116,6 @@ public class QuickSort {
             System.out.print(arr[i] + ", ");
         }
         System.out.println();
-         */
     }
 }
 

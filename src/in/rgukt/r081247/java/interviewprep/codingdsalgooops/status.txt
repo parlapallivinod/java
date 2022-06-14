@@ -1,7 +1,8 @@
-Status = 18/75
+Status = 21/75
 
 
-
+21. https://leetcode.com/problems/linked-list-cycle/
+20. Merge Intervals - https://leetcode.com/problems/merge-intervals/
 19. Pacific Atlantic Water Flow - https://leetcode.com/problems/pacific-atlantic-water-flow/
 18. Course Schedule - https://leetcode.com/problems/course-schedule/
 17. Find Median from Data Stream - https://leetcode.com/problems/find-median-from-data-stream/
