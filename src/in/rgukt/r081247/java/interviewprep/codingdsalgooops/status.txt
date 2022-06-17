@@ -1,7 +1,7 @@
-Status = 21/75
+Status = 22/75
 
-
-21. https://leetcode.com/problems/linked-list-cycle/
+22. Spiral Matrix - https://leetcode.com/problems/spiral-matrix/
+21. Detect Cycle in a Linked List - https://leetcode.com/problems/linked-list-cycle/
 20. Merge Intervals - https://leetcode.com/problems/merge-intervals/
 19. Pacific Atlantic Water Flow - https://leetcode.com/problems/pacific-atlantic-water-flow/
 18. Course Schedule - https://leetcode.com/problems/course-schedule/
