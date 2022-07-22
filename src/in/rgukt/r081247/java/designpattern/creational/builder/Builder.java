@@ -1,6 +1,7 @@
 package in.rgukt.r081247.java.designpattern.creational.builder;
 
 public interface Builder {
+
     void setCarType(CarType type);
     void setSeats(int seats);
     void setEngine(Engine engine);

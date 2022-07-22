@@ -13,15 +13,12 @@ Data Structures
 ---------------------------
 Array
     - ArrayList
-
 Linked List
-
-HashMap
 Queue, Stack
+HashMap
 Binary Tree, Balanced Binary Search Tree
-Trie / Prefix Tree
 Heap
-
+Trie / Prefix Tree
 Graph
     - Edge List
     - Adjacency List
@@ -32,7 +29,6 @@ Graph
     - Breadth First Search(BFS)
     - Transitive Closure
     - Topological Sort
-
 Sorting
     - Merge Sort
         - Array-Based Implementation of Merge-Sort

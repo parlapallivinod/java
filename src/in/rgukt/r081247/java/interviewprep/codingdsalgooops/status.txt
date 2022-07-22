@@ -1,5 +1,10 @@
-Status = 22/75
+Status = 27/75
 
+27. Binary Tree Maximum Path Sum - https://leetcode.com/problems/binary-tree-maximum-path-sum/
+26. Invert/Flip Binary Tree - https://leetcode.com/problems/invert-binary-tree/
+25. Same Tree - https://leetcode.com/problems/same-tree/
+24. Minimum Window Substring - https://leetcode.com/problems/minimum-window-substring/
+23. Longest Repeating Character Replacement - https://leetcode.com/problems/longest-repeating-character-replacement/
 22. Spiral Matrix - https://leetcode.com/problems/spiral-matrix/
 21. Detect Cycle in a Linked List - https://leetcode.com/problems/linked-list-cycle/
 20. Merge Intervals - https://leetcode.com/problems/merge-intervals/
