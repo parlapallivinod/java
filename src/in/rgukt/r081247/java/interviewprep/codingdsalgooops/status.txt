@@ -1,5 +1,8 @@
-Status = 28/75
+Status = 30/75
 
+31. Counting Bits - https://leetcode.com/problems/counting-bits/
+30. Find Minimum in Rotated Sorted Array - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+29. Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/
 28. Top K Frequent Elements - https://leetcode.com/problems/top-k-frequent-elements/
 27. Binary Tree Maximum Path Sum - https://leetcode.com/problems/binary-tree-maximum-path-sum/
 26. Invert/Flip Binary Tree - https://leetcode.com/problems/invert-binary-tree/

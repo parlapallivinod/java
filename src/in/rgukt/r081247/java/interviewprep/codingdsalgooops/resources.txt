@@ -11,25 +11,62 @@ https://levels.fyi
 
 Data Structures
 ---------------------------
-Array
-    - ArrayList
-Linked List
-Queue, Stack
-HashMap
-Binary Tree, Balanced Binary Search Tree
-Heap
-Trie / Prefix Tree
-Graph
-    - Edge List
-    - Adjacency List
-    - Adjaceny Map
-    - Adjacency Matrix
+Fundamental Data Structures
+    - Arrays
+    - ArrayLists
+    - Singly Linked Lists
+    - Circularly Linked Lists
+    - Doubly Linked Lists
 
-    - Depth First Search(DFS)
-    - Breadth First Search(BFS)
-    - Transitive Closure
-    - Topological Sort
-Sorting
+Stacks, Queues, and Deques
+    - The Stack Abstract Data Type
+    - A Simple Array-Based Stack Implementation
+    - Implementing a Stack with a Singly Linked List
+
+    - The Queue Abstract Data Type
+    - Array-Based Queue Implementation
+    - Implementing a Queue with a Singly Linked List
+    - A Circular Queue
+
+    - The Deque Abstract Data Type
+    - Implementing a Deque
+
+Trees
+    - General Trees
+    - Binary Trees
+    - Implementing Trees
+        - Linked Structure for Binary Trees
+        - Array-Based Representation of a Binary Tree
+        - Linked Structure for General Trees
+    - Tree Traversal Algorithms
+        - Preorder and Postorder Traversals of General Trees
+        - Breadth-First Tree Traversal
+        - Inorder Traversal of a Binary Tree
+
+Priority Queues
+    - The Priority Queue ADT
+    - Implementing a Priority Queue with a Heap
+    - Bottom-Up Heap Construction
+    - Heap-Sort
+    - Adaptable Priority Queues
+        - Location-Aware Entries
+        - Implementing an Adaptable Priority Queue
+
+Maps, Hash Tables
+ - The Map ADT
+ - A Simple Unsorted Map Implementation
+ - Hash Functions
+ - Collision-Handling Schemes
+ - Load Factors, Rehashing, and Efficiency
+ - Java Hash Table Implementation
+
+Search Trees
+ - Binary Search Trees
+ - Balanced Search Trees
+
+
+
+Sorting and Selection
     - Merge Sort
         - Array-Based Implementation of Merge-Sort
         - Sorting Linked Lists
@@ -40,3 +77,16 @@ Sorting
     - Counting Sort, Bucket Sort
     - Radix Sort
     - Randomized Quick Select
+
+Trie / Prefix Tree
+
+Graph
+    - Edge List
+    - Adjacency List
+    - Adjaceny Map
+    - Adjacency Matrix
+
+    - Depth First Search(DFS)
+    - Breadth First Search(BFS)
+    - Transitive Closure
+    - Topological Sort
