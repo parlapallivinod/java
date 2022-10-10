@@ -8,6 +8,15 @@ public class CarBuilder implements Builder {
     private TripComputer tripComputer;
     private GPSNavigator gpsNavigator;
 
+    private void reset() {
+        this.type = null;
+        this.seats = 0;
+        this.engine = null;
+        this.transmission = null;
+        this.tripComputer = null;
+        this.gpsNavigator = null;
+    }
+
     public void setCarType(CarType type) {
         this.type = type;
     }
@@ -38,6 +47,8 @@ public class CarBuilder implements Builder {
     }
 
     public Car getResult() {
-        return new Car(type, seats, engine, transmission, tripComputer, gpsNavigator);
+        Car car = new Car(type, seats, engine, transmission, tripComputer, gpsNavigator);
+        reset();
+        return car;
     }
 }

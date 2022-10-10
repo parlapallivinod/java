@@ -13,8 +13,5 @@ public class Main {
         context.doThis();
         context.doThis();
         context.doThis();
-
-
-
     }
 }

@@ -14,6 +14,7 @@ public class FindMedianFromDataStream {
         Queue<Integer> minHeap = new PriorityQueue<>();
         Integer median = null;
 
+        /*
         int getMedian (int element) {
             if(median == null) {
                 maxHeap.offer(element);
@@ -28,6 +29,30 @@ public class FindMedianFromDataStream {
                     maxHeap.offer(minHeap.poll());
                 minHeap.offer(element);
             }
+
+            if (maxHeap.size() > minHeap.size()) {
+                median = maxHeap.peek();
+            } else if(maxHeap.size() < minHeap.size()) {
+                median = minHeap.peek();
+            } else {
+                median = (minHeap.peek() + maxHeap.peek())/2;
+            }
+
+            return median;
+        }
+         */
+        int getMedian (int element) {
+            if(median == null)
+                maxHeap.offer(element);
+            else if(element <= median)
+                maxHeap.offer(element);
+            else
+                minHeap.offer(element);
+
+            if(maxHeap.size() == minHeap.size() + 2)
+                minHeap.offer(maxHeap.poll());
+            else if(minHeap.size() == maxHeap.size() + 2)
+                maxHeap.offer(minHeap.poll());
 
             if (maxHeap.size() > minHeap.size()) {
                 median = maxHeap.peek();

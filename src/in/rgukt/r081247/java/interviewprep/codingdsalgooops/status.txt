@@ -1,5 +1,15 @@
-Status = 30/75
+Status = 40/75
 
+41. Valid Parentheses - https://leetcode.com/problems/valid-parentheses/
+40. Group Anagrams - https://leetcode.com/problems/group-anagrams/
+39. Valid Anagram - https://leetcode.com/problems/valid-anagram/
+38. Rotate Image - https://leetcode.com/problems/rotate-image/
+37. Remove Nth Node From End Of List - https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+36. Non-overlapping Intervals - https://leetcode.com/problems/non-overlapping-intervals/
+35. Longest Consecutive Sequence - https://leetcode.com/problems/longest-consecutive-sequence/
+34. Number of Islands - https://leetcode.com/problems/number-of-islands/
+33. Word Break Problem - https://leetcode.com/problems/word-break/
+32. Longest Common Subsequence - https://leetcode.com/problems/longest-common-subsequence/
 31. Counting Bits - https://leetcode.com/problems/counting-bits/
 30. Find Minimum in Rotated Sorted Array - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 29. Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/
