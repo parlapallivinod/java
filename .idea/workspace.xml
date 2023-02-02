@@ -66,7 +66,20 @@
       <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo (1)">
+  <component name="RunManager" selected="Application.CombinationSumIV">
+    <configuration name="CombinationSumIV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.CombinationSumIV" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.behavioral.visitor.Demo" />
       <module name="java" />
@@ -93,32 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.behavioral.state.Main" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.behavioral.state.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.behavioral.memento.Main" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.behavioral.memento.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java" />
@@ -126,13 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SerializeandDeserializeBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.tree.SerializeandDeserializeBinaryTree" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CombinationSumIV" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SerializeandDeserializeBinaryTree" />
         <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -200,50 +200,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="Stategy, Observer, Decorator patterns" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="100" width="548" height="597" key="#com.intellij.ide.util.MemberChooser" timestamp="1663465198793">
+    <state x="491" y="68" width="548" height="633" key="#com.intellij.ide.util.MemberChooser" timestamp="1673660409219">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state x="491" y="100" width="548" height="597" key="#com.intellij.ide.util.MemberChooser/0.27.1366.708@0.27.1366.708" timestamp="1663465198793" />
-    <state x="466" y="139" width="424" height="491" key="FileChooserDialogImpl" timestamp="1660182856257">
+    <state x="491" y="68" width="548" height="633" key="#com.intellij.ide.util.MemberChooser/0.27.1366.708@0.27.1366.708" timestamp="1673660409219" />
+    <state width="1320" height="2" key="GridCell.Tab.0.bottom" timestamp="1673922751770">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state x="466" y="139" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.708@0.27.1366.708" timestamp="1660182856257" />
-    <state width="1320" height="68" key="GridCell.Tab.0.bottom" timestamp="1665286039610">
+    <state width="1320" height="2" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1673922751770" />
+    <state width="1320" height="2" key="GridCell.Tab.0.center" timestamp="1673922751769">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="68" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1665286039610" />
-    <state width="1320" height="68" key="GridCell.Tab.0.center" timestamp="1665286039609">
+    <state width="1320" height="2" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1673922751769" />
+    <state width="1320" height="2" key="GridCell.Tab.0.left" timestamp="1673922751768">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="68" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1665286039609" />
-    <state width="1320" height="68" key="GridCell.Tab.0.left" timestamp="1665286039608">
+    <state width="1320" height="2" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1673922751768" />
+    <state width="1320" height="2" key="GridCell.Tab.0.right" timestamp="1673922751769">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="68" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1665286039608" />
-    <state width="1320" height="68" key="GridCell.Tab.0.right" timestamp="1665286039609">
+    <state width="1320" height="2" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1673922751769" />
+    <state x="346" y="56" width="672" height="678" key="search.everywhere.popup" timestamp="1666403731429">
       <screen x="0" y="27" width="1366" height="708" />
     </state>
-    <state width="1320" height="68" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1665286039609" />
-    <state x="278" y="126" width="799" height="516" key="NewModule_or_Project.wizard" timestamp="1660182843604">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state x="278" y="126" width="799" height="516" key="NewModule_or_Project.wizard/0.27.1366.708@0.27.1366.708" timestamp="1660182843604" />
-    <state x="67" y="90" width="1222" height="589" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1661739841216">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state x="67" y="90" width="1222" height="589" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.27.1366.708@0.27.1366.708" timestamp="1661739841216" />
-    <state x="372" y="89" width="622" height="584" key="find.popup" timestamp="1660266986340">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state x="372" y="89" width="622" height="584" key="find.popup/0.27.1366.708@0.27.1366.708" timestamp="1660266986340" />
-    <state x="347" y="166" key="run.anything.popup" timestamp="1656812618899">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state x="347" y="166" key="run.anything.popup/0.27.1366.708@0.27.1366.708" timestamp="1656812618899" />
-    <state x="346" y="56" width="672" height="678" key="search.everywhere.popup" timestamp="1663727394107">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state x="346" y="56" width="672" height="678" key="search.everywhere.popup/0.27.1366.708@0.27.1366.708" timestamp="1663727394107" />
+    <state x="346" y="56" width="672" height="678" key="search.everywhere.popup/0.27.1366.708@0.27.1366.708" timestamp="1666403731429" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
