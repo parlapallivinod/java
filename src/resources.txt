@@ -1,16 +1,32 @@
 https://refactoring.guru/design-patterns/
 
+SOLID Principles
+-------------------
 https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/
 https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/
 
+OOPS
+----------
 https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/
 https://www.freecodecamp.org/news/java-object-oriented-programming-system-principles-oops-concepts-for-beginners/
 
 Concurrency
-https://www.youtube.com/playlist?list=PLBB24CFB073F1048E
+---------------
 https://www.youtube.com/playlist?list=PLhfHPmPYPPRk6yMrcbfafFGSbE2EPK_A6
+https://www.youtube.com/playlist?list=PLL8woMHwr36EDxjUoCzboZjedsnhLP1j4
 
 Java Monitoring Tools
+-----------------------
 https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr025.html
 
 https://roadmap.sh/
+
+Caching in spring boot application
+----------------------------------
+
+Micro service design patterns
+resilience4j
+------------------------------------
+https://www.baeldung.com/resilience4j
+https://www.baeldung.com/spring-boot-resilience4j
+https://resilience4j.readme.io/docs
