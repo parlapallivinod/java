@@ -80,7 +80,7 @@ Sorting and Selection
 
 Trie / Prefix Tree
 
-Graph
+Graphs
     - Edge List
     - Adjacency List
     - Adjaceny Map

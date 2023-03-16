@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0482bae3-5bfc-4248-83fc-16439df8550d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1cc8gUpjCz8bCkxCqRyeumDwm9x" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -31,16 +37,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../other/spring-sec/spring-security-samples" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="in.rgukt.r081247.java.util" />
@@ -66,7 +69,7 @@
       <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sample">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="CombinationSumIV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.CombinationSumIV" />
       <module name="java" />
@@ -113,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializeandDeserializeBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.tree.SerializeandDeserializeBinaryTree" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.Solution" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.tree.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,14 +131,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Sample" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.HouseRobber" />
         <item itemvalue="Application.CombinationSumIV" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SerializeandDeserializeBinaryTree" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -188,7 +192,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -198,28 +201,6 @@
     <MESSAGE value="Strategy Pattern" />
     <MESSAGE value="Stategy, Observer, Decorator patterns" />
     <option name="LAST_COMMIT_MESSAGE" value="Stategy, Observer, Decorator patterns" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="491" y="68" width="548" height="633" key="#com.intellij.ide.util.MemberChooser" timestamp="1677638700927">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state x="491" y="68" width="548" height="633" key="#com.intellij.ide.util.MemberChooser/0.27.1366.708@0.27.1366.708" timestamp="1677638700927" />
-    <state width="1320" height="32" key="GridCell.Tab.0.bottom" timestamp="1677640404945">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state width="1320" height="32" key="GridCell.Tab.0.bottom/0.27.1366.708@0.27.1366.708" timestamp="1677640404945" />
-    <state width="1320" height="32" key="GridCell.Tab.0.center" timestamp="1677640404944">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state width="1320" height="32" key="GridCell.Tab.0.center/0.27.1366.708@0.27.1366.708" timestamp="1677640404944" />
-    <state width="1320" height="32" key="GridCell.Tab.0.left" timestamp="1677640404944">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state width="1320" height="32" key="GridCell.Tab.0.left/0.27.1366.708@0.27.1366.708" timestamp="1677640404944" />
-    <state width="1320" height="32" key="GridCell.Tab.0.right" timestamp="1677640404945">
-      <screen x="0" y="27" width="1366" height="708" />
-    </state>
-    <state width="1320" height="32" key="GridCell.Tab.0.right/0.27.1366.708@0.27.1366.708" timestamp="1677640404945" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -277,6 +258,11 @@
           <url>file://$PROJECT_DIR$/src/in/rgukt/r081247/java/interviewprep/codingdsalgooops/graph/NumberofIslands.java</url>
           <line>30</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/in/rgukt/r081247/java/Solution.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

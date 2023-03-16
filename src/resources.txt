@@ -1,3 +1,35 @@
+
+Java
+-------------------------------------------------
+OOPS, SOLID Principles
+Data Structures, Algorithms, Design Patterns
+Collections
+Lambda expressions, Functional Interfaces, Streams
+Multi Threading / Concurrency
+
+Spring Framework
+-------------------------------------------------
+Spring Core, Spring AOP
+JDBC, Spring JDBC, Spring Data JDBC, Spring Data JPA, Hibernate
+Spring Security
+Spring Boot, Resiliency4J(Micro Services design patterns library)
+
+Storage
+------------------------------------------------
+SQL Databases(Oracle, MySQL)
+Messaging Systems(Apache Kafka)
+NoSQL Databases(Cassandra, Redis, etc)
+
+Cloud
+-------------------------------------------------
+AWS, Docker(Containers), Kubernetes
+
+DevOps
+-------------------------------------------------
+Git, Jenkins, JFrog Artifactory, uDeploy
+
+
+
 https://refactoring.guru/design-patterns/
 
 SOLID Principles
@@ -20,13 +52,3 @@ Java Monitoring Tools
 https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr025.html
 
 https://roadmap.sh/
-
-Caching in spring boot application
-----------------------------------
-
-Micro service design patterns
-resilience4j
-------------------------------------
-https://www.baeldung.com/resilience4j
-https://www.baeldung.com/spring-boot-resilience4j
-https://resilience4j.readme.io/docs
