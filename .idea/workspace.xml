@@ -39,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;/home/vinod/Downloads/demo/pom.xml&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
@@ -132,9 +133,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.HouseRobber" />
         <item itemvalue="Application.Sample" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.HouseRobber" />
         <item itemvalue="Application.CombinationSumIV" />
       </list>
     </recent_temporary>
@@ -258,11 +259,6 @@
           <url>file://$PROJECT_DIR$/src/in/rgukt/r081247/java/interviewprep/codingdsalgooops/graph/NumberofIslands.java</url>
           <line>30</line>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/in/rgukt/r081247/java/Solution.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

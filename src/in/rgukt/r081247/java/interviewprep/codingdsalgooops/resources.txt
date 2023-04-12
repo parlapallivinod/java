@@ -83,10 +83,12 @@ Trie / Prefix Tree
 Graphs
     - Edge List
     - Adjacency List
-    - Adjaceny Map
+    - Adjacency Map
     - Adjacency Matrix
 
     - Depth First Search(DFS)
     - Breadth First Search(BFS)
     - Transitive Closure
     - Topological Sort
+    - Dijikstra Algorithm
+    -
