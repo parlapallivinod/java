@@ -70,7 +70,7 @@
       <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CombinationSumIV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.CombinationSumIV" />
       <module name="java" />
@@ -132,10 +132,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.HouseRobber" />
         <item itemvalue="Application.Sample" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CombinationSumIV" />
       </list>
     </recent_temporary>

@@ -11,7 +11,7 @@ package in.rgukt.r081247.java.datastructure.list;
  */
 public interface PositionalList<E> extends Iterable<E>{
     /**
-     * Returns the numer of elements in the list.
+     * Returns the number of elements in the list.
      * @return
      */
     int size();

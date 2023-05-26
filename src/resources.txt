@@ -51,4 +51,13 @@ Java Monitoring Tools
 -----------------------
 https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr025.html
 
+Git
+----------------------------------------------
+https://nulab.com/learn/software-development/git-tutorial/git-collaboration
+
 https://roadmap.sh/
+
+Microservices
+-----------------------------------------------
+https://www.youtube.com/playlist?list=PLVz2XdJiJQxxWhFkucZBoMxeYE6qTgEF8
+https://www.youtube.com/playlist?list=PLVz2XdJiJQxw1H3JVhclHc__WYDaiS1uL

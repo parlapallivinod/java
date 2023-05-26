@@ -7,11 +7,10 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 class Solution {
+    public static class Counter {
+        public long count = 0;
+    }
     public static void main(String[] args) {
-        Optional<Integer> opt = Optional.ofNullable(null);
-        if(opt.isEmpty())
-            System.out.println("empty");
-
 
     }
 }

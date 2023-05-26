@@ -61,50 +61,16 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        List<Employee> list = new LinkedList<>();
-        list.add(new Employee(1l, "s", 100l));
-        list.add(new Employee(2l, "s", 200l));
-        list.add(new Employee(3l, "n", 300l));
-
-        /*
-        Optional<Employee> emp = list.stream().skip(1).findFirst();
-        if(emp.isPresent())
-            System.out.println(emp);
-
-         */
-
-        /*
-        Map<String, List<Long>> output = list.stream()
-                .collect(Collectors.groupingBy(Employee::getName, Collectors.mapping(emp->emp.getSalary(), Collectors.toList())));
-        System.out.println(output);
-         */
-        /*
-        Map<String, List<Employee>> output = list.stream()
-                .collect(Collectors.groupingBy(Employee::getName, Collectors.toList()));
-        System.out.println(output);
-         */
-
-        /*
-        Map<Boolean, List<Employee>> output = list.stream()
-                .collect(Collectors.partitioningBy(e->e.getName().equals("s"), Collectors.toList()));
-        System.out.println(output);
-
-         */
-
-        /*
-        List<Employee> output = list.stream()
-                .sorted(Comparator.comparing(Employee::getName).thenComparing(Comparator.comparing(Employee::getSalary)))
-                .collect(Collectors.toList());
-        System.out.println(output);
-         */
-
-
-
-        Map<Boolean, Optional<Employee>> map = list.stream()
-                .collect(Collectors.partitioningBy(e->e.getName().equals("s"), Collectors.minBy(Comparator.comparing(Employee::getSalary))));
-        System.out.println(map);
-        List<Employee> e = list.stream().sorted(Comparator.comparing(Employee::getSalary).reversed().thenComparing(Employee::getName))
-                .collect(LinkedList::new, LinkedList::add, LinkedList::addAll);
+        String s1 = "abc";
+        String s2 = "abc";
+        String s3 = new String("abc");
+        String s4 = new String("abc");
+        if(s1 == s2)
+            System.out.println("s1 == s2");
+        if(s2 == s3)
+            System.out.println("s2 == s3");
+        if(s3 == s4)
+            System.out.println("s3 == s4");
 
     }
 }
