@@ -88,12 +88,33 @@ public class Java8Streams {
          */
 
 
-
+        /*
         Map<Boolean, Optional<Employee>> map = list.stream()
                 .collect(Collectors.partitioningBy(e->e.getName().equals("s"), Collectors.minBy(Comparator.comparing(Employee::getSalary))));
         System.out.println(map);
+        */
+
+        /*
         List<Employee> e = list.stream().sorted(Comparator.comparing(Employee::getSalary).reversed().thenComparing(Employee::getName))
                 .collect(LinkedList::new, LinkedList::add, LinkedList::addAll);
+        */
 
+        /*
+        Map<String, Optional<Employee>> max = list.stream()
+                .collect(Collectors.groupingBy(Employee::getName, Collectors.maxBy(Comparator.comparing(Employee::getSalary))));
+        System.out.println(max);
+         */
+
+        Map<String, Map<Long, List<Employee>>> res = list.stream()
+                .collect(Collectors.groupingBy(Employee::getName, Collectors.groupingBy(Employee::getSalary, Collectors.toList())));
+        System.out.println(res);
+    }
+
+    public void nthHighest() {
+        int nth = 6;
+        List<Integer> list = List.of(10, 10, 9, 9, 8, 8, 7, 7, 6, 6, 11);
+        Optional<Integer> nthmax = list.stream().distinct().sorted(Comparator.reverseOrder()).skip(nth - 1).findFirst();
+        if(nthmax.isPresent())
+            System.out.println(nthmax.get());
     }
 }

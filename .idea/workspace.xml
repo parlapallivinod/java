@@ -70,13 +70,13 @@
       <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CombinationSumIV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.CombinationSumIV" />
+  <component name="RunManager" selected="Application.Java8Streams">
+    <configuration name="Algos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.datastructure.graph.Algos" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.datastructure.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,22 +97,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Java8Streams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.version.java8.Java8Streams" />
       <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.rgukt.r081247.java.version.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.Sample" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Java8Streams" />
+        <item itemvalue="Application.Algos" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.HouseRobber" />
-        <item itemvalue="Application.Sample" />
-        <item itemvalue="Application.CombinationSumIV" />
       </list>
     </recent_temporary>
   </component>

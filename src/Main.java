@@ -61,16 +61,11 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        String s1 = "abc";
-        String s2 = "abc";
-        String s3 = new String("abc");
-        String s4 = new String("abc");
-        if(s1 == s2)
-            System.out.println("s1 == s2");
-        if(s2 == s3)
-            System.out.println("s2 == s3");
-        if(s3 == s4)
-            System.out.println("s3 == s4");
+        int nth = 6;
+        List<Integer> list = List.of(10, 10, 9, 9, 8, 8, 7, 7, 6, 6, 11);
+        Optional<Integer> nthmax = list.stream().distinct().sorted(Comparator.reverseOrder()).skip(nth - 1).findFirst();
+        if(nthmax.isPresent())
+            System.out.println(nthmax.get());
 
     }
 }
