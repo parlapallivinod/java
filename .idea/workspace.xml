@@ -70,7 +70,7 @@
       <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Java8Streams">
+  <component name="RunManager" selected="Application.MeetingRooms">
     <configuration name="Algos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.datastructure.graph.Algos" />
       <module name="java" />
@@ -84,12 +84,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.HouseRobber" />
+    <configuration name="AlienDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.graph.AlienDictionary" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphValidTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.graph.GraphValidTree" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,19 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.Solution" />
+    <configuration name="MeetingRooms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.interval.MeetingRooms" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.interval.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MeetingRooms" />
+        <item itemvalue="Application.GraphValidTree" />
+        <item itemvalue="Application.AlienDictionary" />
         <item itemvalue="Application.Java8Streams" />
         <item itemvalue="Application.Algos" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.HouseRobber" />
       </list>
     </recent_temporary>
   </component>
