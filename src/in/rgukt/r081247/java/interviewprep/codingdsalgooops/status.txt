@@ -1,5 +1,9 @@
-Status = 54/75
+Status = 57/75
 
+58. Longest Palindromic Substring - https://leetcode.com/problems/longest-palindromic-substring/
+57. Valid Palindrome - https://leetcode.com/problems/valid-palindrome/
+56. Word Search - https://leetcode.com/problems/word-search/
+55. Reorder List - https://leetcode.com/problems/reorder-list/
 54. Meeting Rooms II (Leetcode Premium) - https://leetcode.com/problems/meeting-rooms-ii/
 53. Meeting Rooms (Leetcode Premium) - https://leetcode.com/problems/meeting-rooms/
 52. Graph Valid Tree (Leetcode Premium) - https://leetcode.com/problems/graph-valid-tree/
