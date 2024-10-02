@@ -17,7 +17,7 @@ public class Rectangle implements Shape {
 
     @Override
     public String accept(Visitor visitor) {
-        return visitor.visitRectangle(this);
+        return visitor.visit(this);
     }
 
     @Override
