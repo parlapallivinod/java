@@ -1,7 +1,7 @@
 
 Java
 -------------------------------------------------
-OOPS, SOLID Principles
+OOPS, SOLID Principles, CAP Theorem
 Data Structures, Algorithms, Design Patterns
 Collections
 Lambda expressions, Functional Interfaces, Streams
@@ -18,7 +18,7 @@ Storage
 ------------------------------------------------
 SQL Databases(Oracle, MySQL)
 Messaging Systems(Apache Kafka)
-NoSQL Databases(Cassandra, Redis, etc)
+NoSQL Databases(Mongo DB, Cassandra, Redis, etc)
 
 Cloud
 -------------------------------------------------
@@ -27,7 +27,6 @@ AWS, Docker(Containers), Kubernetes
 DevOps
 -------------------------------------------------
 Git, Jenkins, JFrog Artifactory, uDeploy
-
 
 
 https://refactoring.guru/design-patterns/
