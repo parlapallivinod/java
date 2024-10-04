@@ -9,15 +9,15 @@ public class StructuredTaskScopeExample {
         try(StructuredTaskScope.ShutdownOnSuccess<Integer> scope = new StructuredTaskScope.ShutdownOnSuccess<Integer>()) {
             Callable<Integer> c1 = () -> {
                 System.out.println(Thread.currentThread());
-               /* if(1 == 1)
-                    throw new RuntimeException("exception");*/
+                /*if(1 == 1)
+                    throw new RuntimeException("exception1");*/
                 return 1;
 
             };
             Callable<Integer> c2 = () -> {
                 System.out.println(Thread.currentThread());
                 /*if(1 == 1)
-                    throw new RuntimeException("exception");*/
+                    throw new RuntimeException("exception2");*/
                 return 2;
             };
 
@@ -38,15 +38,15 @@ public class StructuredTaskScopeExample {
         try(StructuredTaskScope.ShutdownOnFailure scope = new StructuredTaskScope.ShutdownOnFailure()) {
             Callable<Integer> c1 = () -> {
                 System.out.println(Thread.currentThread());
-                if(1 == 1)
-                    throw new RuntimeException("exception");
+                /*if(1 == 1)
+                    throw new RuntimeException("exception1");*/
                 return 1;
 
             };
             Callable<Integer> c2 = () -> {
                 System.out.println(Thread.currentThread());
                 /*if(1 == 1)
-                    throw new RuntimeException("exception");*/
+                    throw new RuntimeException("exception2");*/
                 return 2;
             };
 
@@ -89,10 +89,14 @@ public class StructuredTaskScopeExample {
             System.out.println(s1.state());
             if(s1.state() == StructuredTaskScope.Subtask.State.SUCCESS)
                 System.out.println(s1.get());
+            else
+                System.out.println(s1.exception());
 
             System.out.println(s2.state());
             if(s2.state() == StructuredTaskScope.Subtask.State.SUCCESS)
                 System.out.println(s2.get());
+            else
+                System.out.println(s2.exception());
 
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
@@ -102,8 +106,8 @@ public class StructuredTaskScopeExample {
     }
 
     public static void main(String[] args) {
-        //structuredTaskScopeFailureExample();
+        structuredTaskScopeFailureExample();
         //structuredTaskScopeSuccessExample();
-        structuredTaskScopeExample();
+        //structuredTaskScopeExample();
     }
 }
