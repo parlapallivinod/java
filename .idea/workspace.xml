@@ -48,8 +48,9 @@
     &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
     &quot;Application.StructuredTaskScopeExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.in.rgukt.r081247.java.designpattern.behavioral.state.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.in.rgukt.r081247.java.designpattern.structural.composite.Main.executor&quot;: &quot;Run&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/vinod/Downloads/demo/pom.xml&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/vinod/Desktop/projects/apis/demo&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
@@ -133,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="in.rgukt.r081247.java.designpattern.behavioral.state.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.behavioral.state.Main" />
+    <configuration name="in.rgukt.r081247.java.designpattern.structural.composite.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.structural.composite.Main" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.behavioral.state.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.structural.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.StructuredTaskScopeExample" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.in.rgukt.r081247.java.designpattern.structural.composite.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.in.rgukt.r081247.java.designpattern.behavioral.state.Main" />
       </list>
     </recent_temporary>
   </component>
