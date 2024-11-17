@@ -29,21 +29,21 @@ class ThreadingModelsPerformance {
         }
         System.out.println((System.currentTimeMillis() - start) + " ms");*/
 
-        /*long start = System.currentTimeMillis();
+        long start = System.currentTimeMillis();
         List<CompletableFuture<Integer>> list = new ArrayList<>();
         for(int i = 1; i < 101; i++)
             list.add(completableFutureSync(i));
         CompletableFuture.allOf(list.toArray(new CompletableFuture<?>[0])).join();
-        System.out.println((System.currentTimeMillis() - start)+ " ms");*/
+        System.out.println((System.currentTimeMillis() - start)+ " ms");
 
-       /* long start = System.currentTimeMillis();
+        /*long start = System.currentTimeMillis();
         List<CompletableFuture<Void>> list = new ArrayList<>();
-        for(int i = 1; i < 101; i++)
+        for (int i = 1; i < 101; i++)
             list.add(completableFutureAsync(i));
         CompletableFuture.allOf(list.toArray(new CompletableFuture<?>[0])).join();
         System.out.println((System.currentTimeMillis() - start) + " ms");*/
 
-        long start = System.currentTimeMillis();
+        /*long start = System.currentTimeMillis();
         List<Future<Integer>> list = new ArrayList<>();
         for(int i = 1; i < 101; i++) {
             int j = i;
@@ -52,18 +52,26 @@ class ThreadingModelsPerformance {
         for(Future<Integer> f: list) {
             f.get();
         }
-        System.out.println((System.currentTimeMillis() - start) + " ms");
+        System.out.println((System.currentTimeMillis() - start) + " ms");*/
+
+        /*long start = System.currentTimeMillis();
+        List<StructuredTaskScope<Integer>> list = new ArrayList<>();
+        for (int i = 1; i < 101; i++)
+            list.add(structuredConcurrency(i));
+        for(StructuredTaskScope<Integer> scope: list)
+            scope.join();
+        System.out.println((System.currentTimeMillis() - start) + " ms");*/
     }
 
     public static Integer normalThread(int i) {
-        if(i == 1)
+        if (i == 1)
             System.out.println(Thread.currentThread() + ": " + i);
         try {
             Thread.sleep(500);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        if(i == 1)
+        if (i == 1)
             System.out.println(Thread.currentThread() + ": " + i);
 
         try {
@@ -77,52 +85,52 @@ class ThreadingModelsPerformance {
 
     public static CompletableFuture<Integer> completableFutureSync(int i) {
         return CompletableFuture.supplyAsync(() -> {
-            if(i == 1)
-                System.out.println(Thread.currentThread()+ ": " + i);
+            if (i == 1)
+                System.out.println(Thread.currentThread() + ": " + i);
             try {
                 Thread.sleep(500);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            if(i == 1)
-                System.out.println(Thread.currentThread()+ ": " + i);
+            if (i == 1)
+                System.out.println(Thread.currentThread() + ": " + i);
             return 0;
-        }, es2).thenApplyAsync(j->{
-            if(i == 1)
-                System.out.println(Thread.currentThread()+ ": " + i);
+        }, es2).thenApplyAsync(j -> {
+            if (i == 1)
+                System.out.println(Thread.currentThread() + ": " + i);
             try {
                 Thread.sleep(500);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            System.out.println(Thread.currentThread()+ ": " + i);
+            System.out.println(Thread.currentThread() + ": " + i);
             return 1;
         }, es3);
     }
 
     public static CompletableFuture<Void> completableFutureAsync(int i) {
         CompletableFuture<Integer> r1 = CompletableFuture.supplyAsync(() -> {
-            if(i == 1)
-                System.out.println(Thread.currentThread()+ ": " + i);
+            if (i == 1)
+                System.out.println(Thread.currentThread() + ": " + i);
             try {
                 Thread.sleep(500);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            if(i == 1)
-                System.out.println(Thread.currentThread()+ ": " + i);
+            if (i == 1)
+                System.out.println(Thread.currentThread() + ": " + i);
             return 0;
         }, es2);
 
-        CompletableFuture<Integer> r2 = CompletableFuture.supplyAsync(()->{
-            if(i == 1)
-                System.out.println(Thread.currentThread()+ ": " + i);
+        CompletableFuture<Integer> r2 = CompletableFuture.supplyAsync(() -> {
+            if (i == 1)
+                System.out.println(Thread.currentThread() + ": " + i);
             try {
                 Thread.sleep(500);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            System.out.println(Thread.currentThread()+ ": " + i);
+            System.out.println(Thread.currentThread() + ": " + i);
             return 1;
         }, es3);
 
@@ -130,14 +138,14 @@ class ThreadingModelsPerformance {
     }
 
     public static Integer virtualThread(int i) {
-        if(i == 1)
+        if (i == 1)
             System.out.println(Thread.currentThread() + ": " + i);
         try {
             Thread.sleep(500);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        if(i == 1)
+        if (i == 1)
             System.out.println(Thread.currentThread() + ": " + i);
 
         try {
@@ -147,6 +155,39 @@ class ThreadingModelsPerformance {
         }
         System.out.println(Thread.currentThread() + ": " + i);
         return 1;
+    }
+
+    public static StructuredTaskScope<Integer> structuredConcurrency(int i) {
+
+        StructuredTaskScope<Integer> scope = new StructuredTaskScope<>();
+
+        StructuredTaskScope.Subtask<Integer> s1 = scope.fork(() -> {
+            if (i == 1)
+                System.out.println(Thread.currentThread() + ": f" + i);
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            if (i == 1)
+                System.out.println(Thread.currentThread() + ": f" + i);
+            return 1;
+        });
+
+        StructuredTaskScope.Subtask<Integer> s2 = scope.fork(() -> {
+            if (i == 1)
+                System.out.println(Thread.currentThread() + ": s" + i);
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            if (i == 1)
+                System.out.println(Thread.currentThread() + ": s" + i);
+            return 1;
+        });
+        System.out.println(Thread.currentThread() + ": " + i);
+        return scope;
     }
 }
 
