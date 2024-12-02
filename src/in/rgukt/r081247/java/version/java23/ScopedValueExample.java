@@ -1,5 +1,6 @@
 package in.rgukt.r081247.java.version.java23;
 
+import java.util.concurrent.Callable;
 import java.util.concurrent.StructuredTaskScope;
 
 public class ScopedValueExample {
@@ -32,13 +33,12 @@ public class ScopedValueExample {
         System.out.println(KEY1.isBound()? KEY1.get(): "KEY1 Unbound");
         System.out.println(KEY2.isBound()? KEY2.get(): "KEY2 Unbound");
         String ret = null;
+        Callable<String> c1 = ()-> KEY1.isBound()? KEY1.get(): "KEY1 Unbound";
+        Callable<String> c2 = ()-> KEY2.isBound()? KEY2.get(): "KEY2 Unbound";
+
         try(StructuredTaskScope<String> scope = new StructuredTaskScope<>()) {
-            StructuredTaskScope.Subtask<String> task1 = scope.fork(()->{
-                return KEY1.isBound()? KEY1.get(): "KEY1 Unbound";
-            });
-            StructuredTaskScope.Subtask<String> task2 = scope.fork(()->{
-                return KEY2.isBound()? KEY2.get(): "KEY2 Unbound";
-            });
+            StructuredTaskScope.Subtask<String> task1 = scope.fork(c1);
+            StructuredTaskScope.Subtask<String> task2 = scope.fork(c2);
 
             scope.join();
             ret = task1.get();
@@ -48,5 +48,6 @@ public class ScopedValueExample {
         }
         return ret;
     }
+
 
 }
