@@ -40,22 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Client.executor&quot;: &quot;Coverage&quot;,
-    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StructuredTaskScopeExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.in.rgukt.r081247.java.designpattern.behavioral.state.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.in.rgukt.r081247.java.designpattern.structural.composite.Main.executor&quot;: &quot;Run&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/vinod/Desktop/projects/apis/demo&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Coverage",
+    "Application.Demo.executor": "Run",
+    "Application.LongestPalindromicSubstring.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ScopedValueExample.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.StructuredTaskScopeExample.executor": "Run",
+    "Application.ThreadingModelsPerformance.executor": "Run",
+    "Application.in.rgukt.r081247.java.designpattern.behavioral.state.Main.executor": "Run",
+    "Application.in.rgukt.r081247.java.designpattern.structural.composite.Main.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/vinod/Downloads/demo(3)/demo",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="in.rgukt.r081247.java.util" />
@@ -81,13 +84,13 @@
       <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/functionalprogramming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StructuredTaskScopeExample">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.behavioral.visitor.Demo" />
+  <component name="RunManager" selected="Application.ScopedValueExample">
+    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.string.LongestPalindromicSubstring" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.behavioral.visitor.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.behavioral.memento.Main" />
+    <configuration name="ScopedValueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.version.java23.ScopedValueExample" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.behavioral.memento.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.version.java23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="in.rgukt.r081247.java.designpattern.structural.composite.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.designpattern.structural.composite.Main" />
+    <configuration name="ThreadingModelsPerformance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.version.java23.ThreadingModelsPerformance" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.designpattern.structural.composite.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.version.java23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StructuredTaskScopeExample" />
+        <item itemvalue="Application.ScopedValueExample" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.in.rgukt.r081247.java.designpattern.structural.composite.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.LongestPalindromicSubstring" />
+        <item itemvalue="Application.ThreadingModelsPerformance" />
+        <item itemvalue="Application.StructuredTaskScopeExample" />
       </list>
     </recent_temporary>
   </component>
