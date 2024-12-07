@@ -10,7 +10,9 @@ public class ScopedValueExample {
 
     public static void main(String[] args) {
        // example1();
-        example2();
+        // example2();
+        example3();
+
     }
 
     public static void example1() {
@@ -47,6 +49,16 @@ public class ScopedValueExample {
             throw new RuntimeException(e);
         }
         return ret;
+    }
+
+    public static void example3() {
+        String result = ScopedValue.where(KEY, "ABC").call(()->{return outerCall();});
+        System.out.println(result);
+    }
+    public static String outerCall() {
+        String result = ScopedValue.where(KEY, "DEF").call(()->{return KEY.get();});
+        System.out.println(result);
+        return KEY.get();
     }
 
 
