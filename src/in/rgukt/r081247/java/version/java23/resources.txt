@@ -1,5 +1,10 @@
+
+Java 20 - From ThreadLocal to ScopedValue with Loom Full Tutorial - JEP Café #16
+https://www.youtube.com/watch?v=fjvGzBFmyhM&list=PLX8CzqL3ArzV4BpOzLanxd4bZr46x5e87&index=8
+
 Virtual Threads and Structured Concurrency in Java 21 With Loom
 https://www.youtube.com/watch?v=QxxG66eQoTc&t=19s&pp=ygUNam9zZSBqYXZhIG11bA%3D%3D
 
 Java Asynchronous Programming Full Tutorial with Loom and Structured Concurrency - JEP Café #13
 https://www.youtube.com/watch?v=2nOj8MKHvmw&list=PLX8CzqL3ArzV4BpOzLanxd4bZr46x5e87&index=11
+
