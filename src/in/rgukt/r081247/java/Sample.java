@@ -20,6 +20,33 @@ import java.util.stream.Collectors;
 
 public class Sample {
 
+    static record Letter(char codePoint) {
+        Letter(char codePoint) {
+            this.codePoint = Character.toLowerCase(codePoint);
+        }
+    }
+    static record LetterCount(long count) implements Comparable<LetterCount> {
+        @Override
+        public int compareTo(LetterCount o) {
+            return Long.compare(this.count, o.count);
+        }
+    }
+    static record LetterByCount(Letter letter, LetterCount count) {
+        LetterByCount(Map.Entry<Letter, LetterCount> entry) {
+            this(entry.getKey(), entry.getValue());
+        }
+    }
+    static record LettersByCount(LetterCount count, List<Letter> letters) {
+        LettersByCount(Map.Entry<LetterCount, List<Letter>> entry) {
+            this(entry.getKey(), entry.getValue());
+        }
+
+        public static Comparator<? super LettersByCount> comparingByCount() {
+            return Comparator.comparing(LettersByCount::count);
+        }
+
+
+    }
     public static void main(String[] args) throws Exception {
         String str = "aabbccdddeeeefffff";
         Map<String, Long> counts = str.chars()
@@ -40,6 +67,33 @@ public class Sample {
                 .sorted(Map.Entry.comparingByKey(Comparator.reverseOrder()))
                 .toList();
         System.out.println(g);
+
+
+        Map<Letter, LetterCount> cs = str.chars()
+                .filter(Character::isAlphabetic)
+                .mapToObj(i -> new Letter((char) i))
+                .collect(
+                        Collectors.groupingBy(
+                                Function.identity(),
+                                Collectors.collectingAndThen(Collectors.counting(), LetterCount::new)));
+        Map<LetterCount, List<Letter>> map = cs.entrySet().stream()
+                .map(LetterByCount::new)
+                .collect(Collectors.groupingBy(
+                        LetterByCount::count,
+                        Collectors.mapping(LetterByCount::letter, Collectors.toList())));
+        LettersByCount mostSeenLetter = map.entrySet().stream()
+                .map(LettersByCount::new)
+                .max(LettersByCount.comparingByCount())
+                .orElseThrow();
+
+        List<LettersByCount> sorted = map.entrySet().stream()
+                .map(LettersByCount::new)
+                .sorted(LettersByCount.comparingByCount().reversed())
+                .toList();
+
+        System.out.println(mostSeenLetter);
+        System.out.println(sorted);
+
     }
 
 }
