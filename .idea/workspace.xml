@@ -40,27 +40,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Client.executor": "Coverage",
-    "Application.Demo.executor": "Run",
-    "Application.LongestPalindromicSubstring.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Sample.executor": "Run",
-    "Application.ScopedValueExample.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.StructuredTaskScopeExample.executor": "Run",
-    "Application.StructuredTaskScopeExtension.executor": "Run",
-    "Application.ThreadingModelsPerformance.executor": "Run",
-    "Application.in.rgukt.r081247.java.designpattern.behavioral.state.Main.executor": "Run",
-    "Application.in.rgukt.r081247.java.designpattern.structural.composite.Main.executor": "Run",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/vinod/Downloads/demo(3)/demo",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Client.executor&quot;: &quot;Coverage&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestPalindromicSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScopedValueExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StructuredTaskScopeExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StructuredTaskScopeExtension.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadingModelsPerformance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.in.rgukt.r081247.java.designpattern.behavioral.state.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.in.rgukt.r081247.java.designpattern.structural.composite.Main.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/vinod/Downloads/demo(3)/demo&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/in/rgukt/r081247/java/interviewprep/codingdsalgooops" />
@@ -79,11 +79,11 @@
       <recent name="in.rgukt.r081247.java.version" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="in.rgukt.r081247.java.algorithm.search" />
       <recent name="in.rgukt.r081247.java.concurrency.defogtech" />
       <recent name="in.rgukt.r081247.java.designpattern.behavioral.chainofresponsibility" />
       <recent name="in.rgukt.r081247.java.concurrency" />
       <recent name="in.rgukt.r081247.java.designpattern.creational.factory.test" />
-      <recent name="in.rgukt.r081247.java.designpattern.creational.prototype" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Sample">

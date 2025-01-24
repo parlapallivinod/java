@@ -1,4 +1,4 @@
-Status = 57/75
+Status = 58/75
 
 58. Longest Palindromic Substring - https://leetcode.com/problems/longest-palindromic-substring/
 57. Valid Palindrome - https://leetcode.com/problems/valid-palindrome/
