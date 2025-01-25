@@ -1,5 +1,6 @@
-Status = 58/75
+Status = 59/75
 
+59.Construct Binary Tree from Preorder and Inorder Traversal - https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 58. Longest Palindromic Substring - https://leetcode.com/problems/longest-palindromic-substring/
 57. Valid Palindrome - https://leetcode.com/problems/valid-palindrome/
 56. Word Search - https://leetcode.com/problems/word-search/
