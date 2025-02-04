@@ -29,7 +29,7 @@ class ConstructBinaryTreePreorderInorder {
     /**
      * Approach   : Recursive DFS copying arrays down
      * Time complexity : O(N^2)
-     * Space complexity : O(2N)
+     * Space complexity : O(N^2)
      */
     public static class Solution1 {
         public static void main() {

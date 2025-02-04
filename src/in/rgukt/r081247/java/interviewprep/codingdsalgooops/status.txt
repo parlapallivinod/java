@@ -1,5 +1,8 @@
-Status = 59/75
+Status = 60/75
 
+62. Search in Rotated Sorted Array - https://leetcode.com/problems/search-in-rotated-sorted-array/
+61. Maximum Subarray - https://leetcode.com/problems/maximum-subarray/
+60. Validate Binary Search Tree - https://leetcode.com/problems/validate-binary-search-tree/
 59.Construct Binary Tree from Preorder and Inorder Traversal - https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 58. Longest Palindromic Substring - https://leetcode.com/problems/longest-palindromic-substring/
 57. Valid Palindrome - https://leetcode.com/problems/valid-palindrome/

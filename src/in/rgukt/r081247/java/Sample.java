@@ -12,6 +12,8 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 import java.util.function.Function;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -48,52 +50,33 @@ public class Sample {
 
     }
     public static void main(String[] args) throws Exception {
-        String str = "aabbccdddeeeefffff";
-        Map<String, Long> counts = str.chars()
-                .filter(Character::isAlphabetic)
-                .map(Character::toLowerCase)
-                .mapToObj(Character::toString)
-                .collect(
-                        Collectors.groupingBy(
-                                Function.identity(),
-                                Collectors.counting()));
+        Lock l = new ReentrantLock();
 
-        Map<Long, List<String>> c = counts.entrySet().stream()
-                .collect(
-                        Collectors.groupingBy(Map.Entry::getValue,
-                                Collectors.mapping(Map.Entry::getKey,
-                                        Collectors.toList())));
-        List<Map.Entry<Long, List<String>>> g = c.entrySet().stream()
-                .sorted(Map.Entry.comparingByKey(Comparator.reverseOrder()))
-                .toList();
-        System.out.println(g);
+        Thread t1 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("t1 start");
+                l.lock();
+                l.lock();
+                l.unlock();
+                System.out.println("t1 end");
+            }
+        });
 
+        Thread t2 = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("t2 start");
+                l.lock();
+                System.out.println("t2 start");
+            }
+        });
 
-        Map<Letter, LetterCount> cs = str.chars()
-                .filter(Character::isAlphabetic)
-                .mapToObj(i -> new Letter((char) i))
-                .collect(
-                        Collectors.groupingBy(
-                                Function.identity(),
-                                Collectors.collectingAndThen(Collectors.counting(), LetterCount::new)));
-        Map<LetterCount, List<Letter>> map = cs.entrySet().stream()
-                .map(LetterByCount::new)
-                .collect(Collectors.groupingBy(
-                        LetterByCount::count,
-                        Collectors.mapping(LetterByCount::letter, Collectors.toList())));
-        LettersByCount mostSeenLetter = map.entrySet().stream()
-                .map(LettersByCount::new)
-                .max(LettersByCount.comparingByCount())
-                .orElseThrow();
+        t1.start();
+        t2.start();
 
-        List<LettersByCount> sorted = map.entrySet().stream()
-                .map(LettersByCount::new)
-                .sorted(LettersByCount.comparingByCount().reversed())
-                .toList();
-
-        System.out.println(mostSeenLetter);
-        System.out.println(sorted);
-
+        t1.join();
+        t2.join();
     }
 
 }
