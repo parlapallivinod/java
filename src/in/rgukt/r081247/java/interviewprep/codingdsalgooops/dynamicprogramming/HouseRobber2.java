@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class HouseRobber2 {
     public static void main(String[] args) {
         int[] nums = {5, 1, 5, 1, 2, 6, 2, 6};
-        System.out.println(Solution3.rob(nums));
+        System.out.println(Solution3.robcircle(nums));
     }
 
     /**
