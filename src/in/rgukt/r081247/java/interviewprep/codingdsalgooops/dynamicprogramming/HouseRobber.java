@@ -10,36 +10,6 @@ public class HouseRobber {
         System.out.println(Solution3.rob(nums));
     }
 
-
-    /**
-     * Approach   : Dynamic Programming
-     * Complexity : Time: O(n) ; Space: O(2n)
-     */
-    public static class Solution1 {
-        public static int rob(int[] nums) {
-            int[] without = new int[nums.length];
-            int[] with = new int[nums.length];
-            without[0] = 0;
-            with[0] = nums[0];
-            for(int i = 1; i < nums.length; i++) {
-                without[i] = Math.max(with[i-1], without[i-1]);
-                with[i] = without[i-1] + nums[i];
-            }
-            /*
-            Deque<Integer> list = new LinkedList<Integer>();
-            int max = Math.max(with[nums.length-1], without[nums.length-1]);
-            for(int i=nums.length-1;i>=0;i--) {
-                if(with[i] == max) {
-                    list.addFirst(nums[i]);
-                    max -= nums[i];
-                }
-            }
-            System.out.println(list);
-             */
-            return Math.max(with[nums.length-1], without[nums.length-1]);
-        }
-    }
-
     /**
      * Approach   : Dynamic Programming
      * Complexity : Time: O(n) ; Space: O(n)
