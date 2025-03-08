@@ -44,8 +44,11 @@
   "keyToString": {
     "Application.BinarySearchCircularArray.executor": "Run",
     "Application.Client.executor": "Coverage",
+    "Application.ConnectedComponentsUndirectedGraph.executor": "Run",
     "Application.ConstructBinaryTreePreorderInorder$Solution2.executor": "Run",
+    "Application.DecodeWays.executor": "Run",
     "Application.Demo.executor": "Run",
+    "Application.JumpGame.executor": "Run",
     "Application.LongestPalindromicSubstring.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Sample.executor": "Run",
@@ -54,6 +57,7 @@
     "Application.StructuredTaskScopeExample.executor": "Run",
     "Application.StructuredTaskScopeExtension.executor": "Run",
     "Application.ThreadingModelsPerformance.executor": "Run",
+    "Application.UniquePaths.executor": "Run",
     "Application.in.rgukt.r081247.java.designpattern.behavioral.state.Main.executor": "Run",
     "Application.in.rgukt.r081247.java.designpattern.structural.composite.Main.executor": "Run",
     "Application.in.rgukt.r081247.java.interviewprep.codingdsalgooops.tree.Solution.executor": "Run",
@@ -89,13 +93,13 @@
       <recent name="in.rgukt.r081247.java.concurrency" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchCircularArray">
-    <configuration name="BinarySearchCircularArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.algorithm.search.BinarySearchCircularArray" />
+  <component name="RunManager" selected="Application.ConnectedComponentsUndirectedGraph">
+    <configuration name="ConnectedComponentsUndirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.graph.ConnectedComponentsUndirectedGraph" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.algorithm.search.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructBinaryTreePreorderInorder$Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.tree.ConstructBinaryTreePreorderInorder$Solution2" />
+    <configuration name="DecodeWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.DecodeWays" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.tree.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,15 +120,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.Sample" />
+    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.JumpGame" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,25 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructuredTaskScopeExtension" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.version.java23.StructuredTaskScopeExtension" />
+    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.UniquePaths" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.version.java23.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="in.rgukt.r081247.java.interviewprep.codingdsalgooops.tree.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.tree.Solution" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.tree.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,19 +168,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ScopedValueExample" />
-      <item itemvalue="Application.BinarySearchCircularArray" />
-      <item itemvalue="Application.ConstructBinaryTreePreorderInorder$Solution2" />
-      <item itemvalue="Application.in.rgukt.r081247.java.interviewprep.codingdsalgooops.tree.Solution" />
-      <item itemvalue="Application.Sample" />
-      <item itemvalue="Application.StructuredTaskScopeExtension" />
+      <item itemvalue="Application.ConnectedComponentsUndirectedGraph" />
+      <item itemvalue="Application.DecodeWays" />
+      <item itemvalue="Application.JumpGame" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.UniquePaths" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearchCircularArray" />
-        <item itemvalue="Application.Sample" />
-        <item itemvalue="Application.ConstructBinaryTreePreorderInorder$Solution2" />
-        <item itemvalue="Application.in.rgukt.r081247.java.interviewprep.codingdsalgooops.tree.Solution" />
-        <item itemvalue="Application.StructuredTaskScopeExtension" />
+        <item itemvalue="Application.ConnectedComponentsUndirectedGraph" />
+        <item itemvalue="Application.JumpGame" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.UniquePaths" />
+        <item itemvalue="Application.DecodeWays" />
       </list>
     </recent_temporary>
   </component>

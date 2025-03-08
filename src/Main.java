@@ -61,11 +61,11 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int nth = 6;
-        List<Integer> list = List.of(10, 10, 9, 9, 8, 8, 7, 7, 6, 6, 11);
-        Optional<Integer> nthmax = list.stream().distinct().sorted(Comparator.reverseOrder()).skip(nth - 1).findFirst();
-        if(nthmax.isPresent())
-            System.out.println(nthmax.get());
+       Queue<Integer> q = new PriorityQueue<>(Comparator.reverseOrder());
+       q.offer(10);
+       q.offer(9);
+        System.out.println(q.poll());
+        System.out.println(q.poll());
 
     }
 }

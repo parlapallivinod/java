@@ -1,5 +1,17 @@
-Status = 62/75
+Status = 67/75
 
+75. Merge Two Sorted Lists - https://leetcode.com/problems/merge-two-sorted-lists/
+74. Word Search II - https://leetcode.com/problems/word-search-ii/
+73. Add and Search Word - https://leetcode.com/problems/add-and-search-word-data-structure-design/
+72. Implement Trie (Prefix Tree) - https://leetcode.com/problems/implement-trie-prefix-tree/
+71. Lowest Common Ancestor of BST - https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+70. Kth Smallest Element in a BST - https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+69. Encode and Decode Strings (Leetcode Premium) - https://leetcode.com/problems/encode-and-decode-strings/
+68. Palindromic Substrings - https://leetcode.com/problems/palindromic-substrings/
+67. Number of Connected Components in an Undirected Graph (Leetcode Premium) - https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+66. Jump Game - https://leetcode.com/problems/jump-game/
+65. Unique Paths - https://leetcode.com/problems/unique-paths/
+64. Decode Ways - https://leetcode.com/problems/decode-ways/
 63. House Robber II - https://leetcode.com/problems/house-robber-ii/
 62. Search in Rotated Sorted Array - https://leetcode.com/problems/search-in-rotated-sorted-array/
 61. Maximum Subarray - https://leetcode.com/problems/maximum-subarray/
