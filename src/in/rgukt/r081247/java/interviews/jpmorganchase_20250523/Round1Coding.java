@@ -1,6 +1,7 @@
 package in.rgukt.r081247.java.interviews.jpmorganchase_20250523;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Round1Coding {
     /*
@@ -335,9 +336,14 @@ public class Round1Coding {
         }
     }
     public static void main(String [] args) {
-        List<CountryState> countryLevel = new ArrayList<>();
+        solution1();
+        solution2();
+    }
+
+    public static void solution1() {
+        List<CountryState> worldLevel = new ArrayList<>();
         for(Country country: countryStateMap.keySet()) {
-            List<CountryState> countryStateLevel = new ArrayList<>();
+            List<CountryState> countryLevel = new ArrayList<>();
             for(State state: countryStateMap.get(country)) {
                 CountryState countryState = new CountryState(country.getId(), country.getName(), state.getId(), state.getName(), 0L);
                 for(City city: stateCityMap.get(state)) {
@@ -345,18 +351,39 @@ public class Round1Coding {
                         city.setPopulation(5000L);
                     countryState.setPopulation(countryState.getPopulation() + city.getPopulation());
                 }
-                countryStateLevel.add(countryState);
+                countryLevel.add(countryState);
             }
-            System.out.println(countryStateLevel);
-            Optional<CountryState> maxCountryStateLevel = countryStateLevel.stream().max(Comparator.comparing(CountryState::getPopulation));
-            if(maxCountryStateLevel.isPresent())
-                countryLevel.add(maxCountryStateLevel.get());
+            //System.out.println(countryStateLevel);
+            Optional<CountryState> maxCountryLevel = countryLevel.stream().max(Comparator.comparing(CountryState::getPopulation));
+            if(maxCountryLevel.isPresent())
+                worldLevel.add(maxCountryLevel.get());
         }
-        System.out.println(countryLevel);
-        List<CountryState> maxCountryLevel = countryLevel.stream()
-                .sorted(Comparator.comparing(CountryState::getPopulation).reversed())
+        //System.out.println(countryLevel);
+        List<CountryState> top3 = worldLevel.stream()
+                .sorted(Comparator.comparing(CountryState::getPopulation).reversed().thenComparing(CountryState::getCountryName))
                 .limit(3)
                 .toList();
-        System.out.println(maxCountryLevel);
+        System.out.println(top3);
+    }
+
+    public static void solution2() {
+        List<CountryState> top3 = countryStateMap.keySet()
+                .stream()
+                .map(country -> countryStateMap.get(country))
+                .map(states -> states.stream()
+                        .map(state -> {
+                            CountryState countryState = new CountryState(state.getCountry().getId(), state.getCountry().getName(), state.getId(), state.getName(), 0L);
+                            stateCityMap.get(state)
+                                    .forEach(city -> countryState.setPopulation(countryState.getPopulation() + city.getPopulation()));
+                            return countryState;
+                        })
+                        .max(Comparator.comparing(CountryState::getPopulation)))
+                .filter(Optional::isPresent)
+                .map(Optional::get)
+                .sorted(Comparator.comparing(CountryState::getPopulation).reversed().thenComparing(CountryState::getCountryName))
+                .limit(3)
+                .toList();
+
+        System.out.println(top3);
     }
 }

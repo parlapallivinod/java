@@ -51,6 +51,7 @@
     "Application.JumpGame.executor": "Run",
     "Application.LongestPalindromicSubstring.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Round1Coding.executor": "Run",
     "Application.Sample.executor": "Run",
     "Application.ScopedValueExample.executor": "Run",
     "Application.Solution.executor": "Run",
@@ -61,6 +62,7 @@
     "Application.in.rgukt.r081247.java.designpattern.behavioral.state.Main.executor": "Run",
     "Application.in.rgukt.r081247.java.designpattern.structural.composite.Main.executor": "Run",
     "Application.in.rgukt.r081247.java.interviewprep.codingdsalgooops.tree.Solution.executor": "Run",
+    "Application.in.rgukt.r081247.java.interviews.jpmorganchase_20250523.Round1Coding.executor": "Run",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/vinod/Documents/database-locking-main",
     "project.structure.last.edited": "Project",
@@ -93,26 +95,13 @@
       <recent name="in.rgukt.r081247.java.concurrency" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConnectedComponentsUndirectedGraph">
+  <component name="RunManager" selected="Application.in.rgukt.r081247.java.interviews.jpmorganchase_20250523.Round1Coding">
     <configuration name="ConnectedComponentsUndirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.graph.ConnectedComponentsUndirectedGraph" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DecodeWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.DecodeWays" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,6 +129,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Round1Coding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.jpmorganchase_20250523.Round1Coding" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.jpmorganchase_20250523.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ScopedValueExample" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.version.java23.ScopedValueExample" />
       <module name="java" />
@@ -153,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.UniquePaths" />
+    <configuration name="in.rgukt.r081247.java.interviews.jpmorganchase_20250523.Round1Coding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.rgukt.r081247.java.interviews.jpmorganchase_20250523.Round1Coding" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="in.rgukt.r081247.java.interviewprep.codingdsalgooops.dynamicprogramming.*" />
+          <option name="PATTERN" value="in.rgukt.r081247.java.interviews.jpmorganchase_20250523.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,19 +170,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ScopedValueExample" />
+      <item itemvalue="Application.in.rgukt.r081247.java.interviews.jpmorganchase_20250523.Round1Coding" />
+      <item itemvalue="Application.Round1Coding" />
       <item itemvalue="Application.ConnectedComponentsUndirectedGraph" />
-      <item itemvalue="Application.DecodeWays" />
       <item itemvalue="Application.JumpGame" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.UniquePaths" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.in.rgukt.r081247.java.interviews.jpmorganchase_20250523.Round1Coding" />
+        <item itemvalue="Application.Round1Coding" />
         <item itemvalue="Application.ConnectedComponentsUndirectedGraph" />
         <item itemvalue="Application.JumpGame" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.UniquePaths" />
-        <item itemvalue="Application.DecodeWays" />
       </list>
     </recent_temporary>
   </component>
