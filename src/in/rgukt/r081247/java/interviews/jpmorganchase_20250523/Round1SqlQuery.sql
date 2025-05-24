@@ -70,7 +70,7 @@ select r.country_id,
     r.state_id,
     r.state_name,
     r.population,
-    rank() over ( partition by r.country_id order by r.population desc ) row_no
+    row_number() over ( partition by r.country_id order by r.population desc ) row_no
 from (
 	select c.id country_id,
 		c.name country_name,
@@ -101,7 +101,7 @@ from (
 		r.state_id,
 		r.state_name,
 		r.population,
-		rank() over ( partition by r.country_id order by r.population desc ) as row_no
+		row_number() over ( partition by r.country_id order by r.population desc ) as row_no
 	from (
 		select c.id country_id,
 			c.name country_name,
