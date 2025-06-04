@@ -33,6 +33,11 @@ Stacks, Queues, and Deques
     - The Deque Abstract Data Type
     - Implementing a Deque
 
+List
+    - List ADT
+    - Array Lists
+    - Positional Lists
+
 Trees
     - General Trees
     - Binary Trees
