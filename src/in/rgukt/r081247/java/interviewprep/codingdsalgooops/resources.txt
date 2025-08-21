@@ -66,12 +66,16 @@ Maps, Hash Tables
  - Collision-Handling Schemes
  - Load Factors, Rehashing, and Efficiency
  - Java Hash Table Implementation
+    - ChainHashMap
+    - ProbeHashMap
+ - Sorted Maps
+ - Skip Lists
 
 Search Trees
  - Binary Search Trees
  - Balanced Search Trees
-
-
+ - AVL Trees
+ - Red-Black Trees
 
 Sorting and Selection
     - Merge Sort
@@ -85,7 +89,13 @@ Sorting and Selection
     - Radix Sort
     - Randomized Quick Select
 
-Trie / Prefix Tree
+Text Processing
+    - Tries
+        - Standard Tries
+        - Compressed Tries
+        - Suffix Tries
+    - The Greedy Method
+    - Dynamic Programming
 
 Graphs
     - Edge List
